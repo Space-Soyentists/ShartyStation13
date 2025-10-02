@@ -30,6 +30,16 @@
 	"genre": "Electronic"
 	},
 	{
+	"url": "https://files.catbox.moe/sq1nhw.mp3",
+	"title": "THUNDERDOME (Sector11)",
+	"duration": 2020,
+	"artist": "MashedByMachines",
+	"secret": false,
+	"lobby": true,
+	"jukebox": true,
+	"genre": "Electronic"
+	},
+	{
 	"url": "https://files.catbox.moe/b24m07.mp3",
 	"title": "Robocop Theme (Title Two)",
 	"duration": 1180,
