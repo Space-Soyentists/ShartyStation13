@@ -868,7 +868,7 @@
 
 /obj/item/toy/plush/shitoko_plushie
 	name = "shitoko plushie"
-	desc = "A plushie depticting a chubby, short-haired man. The tag calls it a 'Satoko', noting it's a Mexican national hero."
+	desc = "A plushie depticting a chubby, short-haired man. The tag calls it a 'Satoko', noting that it's a Mexican national hero."
 	icon_state = "shitoko"
 	inhand_icon_state = null
 	attack_verb_continuous = list("braps", "braaps", "braaapps")
