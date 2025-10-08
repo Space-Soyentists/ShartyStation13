@@ -1,0 +1,6 @@
+author: "CobsonOnTheLog"
+delete-after: True
+changes:
+  - rscadd: "Added 2 new undershirts"
+  - bugfix: "Allow Satoko plushie to spawn"
+  - image: "Modify Satoko plushie sprite"
