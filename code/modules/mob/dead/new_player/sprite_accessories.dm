@@ -1561,8 +1561,18 @@
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/shirt_mexico
-	name = "Shirt (Mexico)"
+	name = "T-Shirt (Mexico)"
 	icon_state = "shirt_mexico"
+	gender = NEUTER
+
+/datum/sprite_accessory/undershirt/shirt_jarty
+	name = "T-Shirt (Jartycuck)"
+	icon_state = "shirt_jarty"
+	gender = NEUTER
+
+/datum/sprite_accessory/undershirt/shirt_trans
+	name = "T-Shirt (Trans)"
+	icon_state = "shirt_trans"
 	gender = NEUTER
 
 ///////////////////////
