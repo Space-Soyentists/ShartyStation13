@@ -123,7 +123,7 @@ Sometimes, though, you need to get unpaid flamboyant people involved. Unpaid fla
 
 > Gigachad: "@idoitforfree Okay sorry. I'm just frustrated and I'm kinda burnt out and I guess I got carried away. I'll DM Alicia a note apologizing and edit my messages. Sorry for the trouble., how could you tell?"
 
-> IDoItForFree: "@giga Thanks for that. I hear you on the stress. Burnout sucks :/.  Have a good one!"
+> IDoItForFree: "@gigachad Thanks for that. I hear you on the stress. Burnout sucks :/.  Have a good one!"
 
 #### The Nope Case
 
