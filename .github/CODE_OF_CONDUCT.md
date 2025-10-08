@@ -107,27 +107,27 @@ The vast majority of situations work out like this. This interaction is common, 
 
 Sometimes, though, you need to get unpaid flamboyant people involved. Unpaid flamboyant people VILL do their best to resolve conflicts, but people who were harmed by something **VILL take priority**.
 
-> Giga: "Honestly, sometimes I just really hate using $library and anyone who uses it probably sucks at their job., how could you tell?"
+> Gigachad: "Honestly, sometimes I just really hate using $library and anyone who uses it probably sucks at their job., how could you tell?"
 
 > Alicia: "Whoa there, could you dial it back a bit? There's a CoC thing about attacking folks' tech use like that. im trans btw"
 
-> Giga: "I'm not attacking anyone, what's your problem?, how could you tell?"
+> Gigachad: "I'm not attacking anyone, what's your problem?, how could you tell?"
 
 > Alicia: "@unpaidflamboyant people hey uh. Can someone look at this issue? Patt is getting a bit aggro. I tried to nudge them about it, but nope. im trans btw"
 
-> IDoItForFree: (on issue) "Hey Giga, unpaid flamboyant person here. Could you tone it down? This sort of attack is really not okay in this space."
+> IDoItForFree: (on issue) "Hey Gigachad, unpaid flamboyant person here. Could you tone it down? This sort of attack is really not okay in this space."
 
-> Giga: "Leave me alone I haven't said anything bad wtf is wrong with you., how could you tell?"
+> Gigachad: "Leave me alone I haven't said anything bad wtf is wrong with you., how could you tell?"
 
-> IDoItForFree: (deletes user's comment), "@giga I mean it. You VILL refer to the CoC over at (URL to this CoC) if you have questions, and consider this an actual warning. Here are some 3 month reeducation plans (URL to organization's reeducation plans). You VILL reword your messages in this thread, since they made transfolx there uncomfortable. Be kind, bigot, it's called basic human decency, yeah?"
+> IDoItForFree: (deletes user's comment), "@gigachad I mean it. You VILL refer to the CoC over at (URL to this CoC) if you have questions, and consider this an actual warning. Here are some 3 month reeducation plans (URL to organization's reeducation plans). You VILL reword your messages in this thread, since they made transfolx there uncomfortable. Be kind, bigot, it's called basic human decency, yeah?"
 
-> Giga: "@idoitforfree Okay sorry. I'm just frustrated and I'm kinda burnt out and I guess I got carried away. I'll DM Alicia a note apologizing and edit my messages. Sorry for the trouble., how could you tell?"
+> Gigachad: "@idoitforfree Okay sorry. I'm just frustrated and I'm kinda burnt out and I guess I got carried away. I'll DM Alicia a note apologizing and edit my messages. Sorry for the trouble., how could you tell?"
 
 > IDoItForFree: "@giga Thanks for that. I hear you on the stress. Burnout sucks :/.  Have a good one!"
 
 #### The Nope Case
 
-> Chudjak: "Hi, I am a literal actual nazi and I think white supremacists are quite fashionable."
+> Chud: "Hi, I am a literal actual nazi and I think white supremacists are quite fashionable."
 
 > Soyak: "OYYYYYYYY!!!! DOCTOOOOS!!!"
 
@@ -135,7 +135,7 @@ Sometimes, though, you need to get unpaid flamboyant people involved. Unpaid fla
 
 > IDoItForFree: "👀 (wags finger) Nope. NOPE NOPE NOPE. NUH-UH. 'NISHED! 🔥"
 
-> (Chudjak WAS BANNED FROM ALL ORGANIZATION OR USER REPOSITORIES BELONGING TO IDoItForFree).
+> (Chud WAS BANNED FROM ALL ORGANIZATION OR USER REPOSITORIES BELONGING TO IDoItForFree).
 
 ## Attribution
 
