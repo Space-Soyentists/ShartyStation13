@@ -1,6 +1,6 @@
 # Snarky Snappy codebase
 
-[![forthebadge](https://raw.githubusercontent.com/luckysharty/Snarky-Snappy/refs/heads/master/fueled%20by.png)](https://soylent.com/) [![resentment](https://raw.githubusercontent.com/luckysharty/Snarky-Snappy/refs/heads/master/BVILT%20WITH.png)](https://jakparty.soy/) [![resentment](https://raw.githubusercontent.com/luckysharty/Snarky-Snappy/refs/heads/master/contains%20autism.png)](https://soybooru.com) [![forinfinityandbyond](https://user-images.githubusercontent.com/5211576/29499758-4efff304-85e6-11e7-8267-62919c3688a9.gif)](https://www.reddit.com/r/SS13/comments/5oplxp/what_is_the_main_problem_with_byond_as_an_engine/dclbu1a)
+[![fueled](https://raw.githubusercontent.com/CobsonOnTheLog/SnarkySnappy/refs/heads/meta-repo-pr/fueledby.png)](https://soylent.com/) [![bvilt](https://raw.githubusercontent.com/CobsonOnTheLog/SnarkySnappy/refs/heads/meta-repo-pr/bviltwith.png)](https://jakparty.soy/) [![contains](https://raw.githubusercontent.com/CobsonOnTheLog/SnarkySnappy/refs/heads/meta-repo-pr/contains.png)](https://soybooru.com) [![forinfinityandbyond](https://user-images.githubusercontent.com/5211576/29499758-4efff304-85e6-11e7-8267-62919c3688a9.gif)](https://www.reddit.com/r/SS13/comments/5oplxp/what_is_the_main_problem_with_byond_as_an_engine/dclbu1a)
 
 | Website                 | Link                                           |
 |-------------------------|------------------------------------------------|
@@ -68,5 +68,3 @@ See the footer of [code/__DEFINES/tgs.dm](./code/__DEFINES/tgs.dm) and [code/mod
 [![forthebadge](https://forthebadge.com/images/badges/cc-by-sa.svg)](https://forthebadge.com)
 
 All assets, including icons and sound, are under a [Creative Commons 3.0 BY-SA license](https://creativecommons.org/licenses/by-sa/3.0/) unless otherwise indicated.
-
-^wordswordswords everything is apart of der bibisi license which means no ytbois
