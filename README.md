@@ -1,17 +1,19 @@
 # Snarky Snappy codebase
-
-[![forthebadge](https://raw.githubusercontent.com/luckysharty/Snarky-Snappy/refs/heads/master/fueled%20by.png)](https://soylent.com/) [![resentment](https://raw.githubusercontent.com/luckysharty/Snarky-Snappy/refs/heads/master/BVILT%20WITH.png)](https://jakparty.soy/) [![resentment](https://raw.githubusercontent.com/luckysharty/Snarky-Snappy/refs/heads/master/contains%20autism.png)](https://soybooru.com) [![forinfinityandbyond](https://user-images.githubusercontent.com/5211576/29499758-4efff304-85e6-11e7-8267-62919c3688a9.gif)](https://www.reddit.com/r/SS13/comments/5oplxp/what_is_the_main_problem_with_byond_as_an_engine/dclbu1a)
+<a href="https://soylent.com"><img src="https://raw.githubusercontent.com/SnarkySnappySS13/SnarkySnappy/refs/heads/master/.github/images/fueledby.png" height="35" width="148.5"></a>
+<a href="https://jakparty.soy"><img src="https://raw.githubusercontent.com/SnarkySnappySS13/SnarkySnappy/refs/heads/master/.github/images/bviltwith.png" height="35" width="211.5"></a>
+<a href="https://soybooru.com"><img src="https://raw.githubusercontent.com/SnarkySnappySS13/SnarkySnappy/refs/heads/master/.github/images/contains.png" height="35" width="136"></a>
+[![forinfinityandbyond](https://user-images.githubusercontent.com/5211576/29499758-4efff304-85e6-11e7-8267-62919c3688a9.gif)](https://www.reddit.com/r/SS13/comments/5oplxp/what_is_the_main_problem_with_byond_as_an_engine/dclbu1a)
 
 | Website                 | Link                                           |
 |-------------------------|------------------------------------------------|
-| Website                 | [https://soyjak.st/](https://soyjak.st/) |
+| Website                 | [https://soyjak.st/ss/](https://soyjak.st/ss/) |
 | Code                    | [https://github.com/SnarkySnappySS13/SnarkySnappy](https://github.com/SnarkySnappySS13/SnarkySnappy) |
 | Wiki                    | [https://wiki.soyjak.st/](https://wiki.soyjak.st/) |
 | Codedocs                | [https://codedocs.tgstation13.org/](https://codedocs.tgstation13.org/) |
 
 This is the codebase for the soicaca-flavored fork of Space Station 13. This repo is keyed off of the Monkestation codebase, this is a custom fork of that repo intended for use on our server, but feel free to host it if you'd like.
 
-Space Station 13 is an open-source tile-based A24 slowburn autistic role-playing video game created in 2003 by Exadv1, originally supposed to be an atmospheric simulator. It is now collectively maintained by its "community" and runs on the shitty freeware game engine BYOND, made sometime in 1996. SS13 dwarfs the other shitty Dragon Ball roleplay games on BYOND by thousands of players, which would have likely died in 2014 if it were not for SS13 singlehandedly keeping the entire platform alive. 
+*Space Station 13 is an open-source tile-based A24 slowburn autistic role-playing video game created in 2003 by Exadv1, originally supposed to be an atmospheric simulator. It is now collectively maintained by its "community" and runs on the shitty freeware game engine BYOND, made sometime in 1996. SS13 dwarfs the other shitty Dragon Ball roleplay games on BYOND by thousands of players, which would have likely died in 2014 if it were not for SS13 singlehandedly keeping the entire platform alive.*
 
 ## DOWNLOADING
 
@@ -69,4 +71,4 @@ See the footer of [code/__DEFINES/tgs.dm](./code/__DEFINES/tgs.dm) and [code/mod
 
 All assets, including icons and sound, are under a [Creative Commons 3.0 BY-SA license](https://creativecommons.org/licenses/by-sa/3.0/) unless otherwise indicated.
 
-^wordswordswords everything is apart of der bibisi license which means no ytbois
+^wordswordswords everything is apart of der 'party license which means anyone affiliated with monkestation can't use our shit
