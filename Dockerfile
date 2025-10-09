@@ -44,55 +44,6 @@ COPY . .
 RUN env TG_BOOTSTRAP_NODE_LINUX=1 tools/build/build \
     && tools/deploy.sh /deploy
 
-# rust = base + rustc and i686 target
-FROM base AS rust
-RUN apt-get install -y --no-install-recommends \
-        curl && \
-    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y --profile minimal \
-    && ~/.cargo/bin/rustup target add i686-unknown-linux-gnu
-
-# rust_g = rust + rust_g compiled to /rust_g
-FROM rust AS rust_g
-WORKDIR /rust_g
-
-RUN apt-get install -y --no-install-recommends \
-        pkg-config:i386 \
-        libssl-dev:i386 \
-        gcc-multilib \
-        git \
-    && git init \
-    && git remote add origin https://github.com/tgstation/rust-g
-
-COPY dependencies.sh .
-
-RUN . ./dependencies.sh \
-    && git fetch --depth 1 origin "${RUST_G_VERSION}" \
-    && git checkout FETCH_HEAD \
-    && env PKG_CONFIG_ALLOW_CROSS=1 ~/.cargo/bin/cargo build --release --target i686-unknown-linux-gnu
-
-
-# dreamluau = rust + dreamluau compiled to /dreamluau
-FROM rust AS dreamluau
-WORKDIR /dreamluau
-
-RUN apt-get install -y --no-install-recommends \
-        pkg-config:i386 \
-        libssl-dev:i386 \
-        zlib1g-dev:i386 \
-        gcc-multilib \
-        g++-multilib \
-        libclang-dev \
-        git \
-    && git init \
-    && git remote add origin https://github.com/tgstation/dreamluau
-
-COPY dependencies.sh .
-
-RUN . ./dependencies.sh \
-    && git fetch --depth 1 origin "${DREAMLUAU_VERSION}" \
-    && git checkout FETCH_HEAD \
-    && env PKG_CONFIG_ALLOW_CROSS=1 ~/.cargo/bin/cargo build --ignore-rust-version --release --target=i686-unknown-linux-gnu
-
 # final = byond + runtime deps + rust_g + dreamluau + build
 FROM byond
 WORKDIR /tgstation
@@ -102,8 +53,6 @@ RUN apt-get install -y --no-install-recommends \
         zlib1g:i386
 
 COPY --from=build /deploy ./
-COPY --from=rust_g /rust_g/target/i686-unknown-linux-gnu/release/librust_g.so ./librust_g.so
-COPY --from=dreamluau /dreamluau/target/i686-unknown-linux-gnu/release/libdreamluau.so ./libdreamluau.so
 
 VOLUME [ "/tgstation/config", "/tgstation/data" ]
 ENTRYPOINT [ "DreamDaemon", "tgstation.dmb", "-port", "8888", "-trusted", "-close", "-verbose" ]
