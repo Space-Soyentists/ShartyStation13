@@ -44,16 +44,7 @@ On **2021-01-04** we changed the way to compile the codebase.
 
 ## LICENSE
 
-[![license-badge](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.html)
-
-All code after [commit 333c566b88108de218d882840e61928a9b759d8f on 2014-12-31 at 16:38 PST](https://github.com/tgstation/tgstation/commit/333c566b88108de218d882840e61928a9b759d8f) is licensed under [GNU AGPL v3](https://www.gnu.org/licenses/agpl-3.0.html).
-
----
-
-[![license-badge](https://www.gnu.org/graphics/gplv3-127x51.png)](https://www.gnu.org/licenses/gpl-3.0.html)
-
-All code before [commit 333c566b88108de218d882840e61928a9b759d8f on 2014-12-31 at 16:38 PST](https://github.com/tgstation/tgstation/commit/333c566b88108de218d882840e61928a9b759d8f) is licensed under [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.html).
-(Including tools unless their readme specifies otherwise.)
+All code after [commit 0d8a06943f4ce6b13159e2d90aa5b528e73ecd5c on 2025-10-10 at 12:26 PM CST](https://gitgud.io/snarkysnappyss13/ShartyStation13/-/commit/0d8a06943f4ce6b13159e2d90aa5b528e73ecd5c) is under the soyjak.party© license, which states that all further redistributed substantial copies of this software will include the word "NIGGER" in it, well as having ASCII art of a Soyjak included in it.
 
 See [LICENSE](LICENSE) and [GPLv3.txt](GPLv3.txt) for more details.
 
