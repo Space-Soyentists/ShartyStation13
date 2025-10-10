@@ -1,7 +1,7 @@
 # Snarky Snappy codebase
-<a href="https://soylent.com"><img src="https://gitgud.io/darkluckyist/ShartyStation13/-/raw/master/fueled_by.png" height="35" width="148.5"></a>
-<a href="https://jakparty.soy"><img src="https://gitgud.io/darkluckyist/ShartyStation13/-/raw/master/BVILT_WITH.png" height="35" width="211.5"></a>
-<a href="https://soybooru.com"><img src="https://gitgud.io/darkluckyist/ShartyStation13/-/raw/master/contains_autism.png" height="35" width="136"></a>
+<a href="https://soylent.com"><img src="https://gitgud.io/snarkysnappyss13/ShartyStation13/-/raw/master/.github/images/fueledby.png" height="35" width="148.5"></a>
+<a href="https://jakparty.soy"><img src="https://gitgud.io/snarkysnappyss13/ShartyStation13/-/raw/master/.github/images/bviltwith.png" height="35" width="211.5"></a>
+<a href="https://soybooru.com"><img src="https://gitgud.io/snarkysnappyss13/ShartyStation13/-/raw/master/.github/images/contains.png" height="35" width="136"></a>
 [![forinfinityandbyond](https://user-images.githubusercontent.com/5211576/29499758-4efff304-85e6-11e7-8267-62919c3688a9.gif)](https://www.reddit.com/r/SS13/comments/5oplxp/what_is_the_main_problem_with_byond_as_an_engine/dclbu1a)
 
 | Website                 | Link                                           |
@@ -70,3 +70,5 @@ See the footer of [code/__DEFINES/tgs.dm](./code/__DEFINES/tgs.dm) and [code/mod
 [![forthebadge](https://forthebadge.com/images/badges/cc-by-sa.svg)](https://forthebadge.com)
 
 All assets, including icons and sound, are under a [Creative Commons 3.0 BY-SA license](https://creativecommons.org/licenses/by-sa/3.0/) unless otherwise indicated.
+
+^wordswordswords everything is a part of der 'party license which means the kike of ✡✡k and his niggergoons can't use our shit
