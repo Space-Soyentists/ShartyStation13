@@ -139,6 +139,25 @@
 	worn_icon_state = "ace"
 	resistance_flags = FIRE_PROOF
 
+/obj/item/clothing/neck/pedo
+	name = "pedo pride cloak"
+	desc = "Brony pedophile."
+	icon = 'monkestation/icons/obj/clothing/necks.dmi'
+	worn_icon = 'monkestation/icons/obj/clothing/necks.dmi'
+	icon_state = "pedo"
+	worn_icon_state = "pedo"
+	resistance_flags = FIRE_PROOF
+
+/obj/item/clothing/neck/lesotho
+	name = "lesotho pride cloak"
+	desc = "oh i'm a jartycuck."
+	icon = 'monkestation/icons/obj/clothing/necks.dmi'
+	worn_icon = 'monkestation/icons/obj/clothing/necks.dmi'
+	icon_state = "lesotho"
+	worn_icon_state = "lesotho"
+	resistance_flags = FIRE_PROOF
+
+
 /obj/item/clothing/neck/admincloak
 	name = "admin cloak"
 	desc = "Weh!"
