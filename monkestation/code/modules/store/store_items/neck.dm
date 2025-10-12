@@ -138,7 +138,7 @@ GLOBAL_LIST_INIT(store_neck, generate_store_items(/datum/store_item/neck))
 	item_path = /obj/item/clothing/neck/ace
 	item_cost = 10000
 
-/datum/store_item/neck/ace
+/datum/store_item/neck/lesotho
 	name = "Lesotho Pride Cloak"
 	item_path = /obj/item/clothing/neck/lesotho
 	item_cost = 1488
