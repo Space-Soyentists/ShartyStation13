@@ -139,14 +139,16 @@
 	worn_icon_state = "ace"
 	resistance_flags = FIRE_PROOF
 
+
 /obj/item/clothing/neck/lesotho
 	name = "lesotho pride cloak"
-	desc = "Oh I'm a jartycuck!"
+	desc = "oh i'm a jartycuck."
 	icon = 'monkestation/icons/obj/clothing/necks.dmi'
 	worn_icon = 'monkestation/icons/obj/clothing/necks.dmi'
 	icon_state = "lesotho"
 	worn_icon_state = "lesotho"
 	resistance_flags = FIRE_PROOF
+
 
 /obj/item/clothing/neck/admincloak
 	name = "admin cloak"
