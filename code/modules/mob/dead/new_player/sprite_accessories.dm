@@ -1570,9 +1570,9 @@
 	icon_state = "shirt_jarty"
 	gender = NEUTER
 
-/datum/sprite_accessory/undershirt/shirt_trans
-	name = "T-Shirt (Trans)"
-	icon_state = "shirt_trans"
+/datum/sprite_accessory/undershirt/shirt_tranny
+	name = "T-Shirt (Tranny)"
+	icon_state = "shirt_tranny"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/shirt_nate

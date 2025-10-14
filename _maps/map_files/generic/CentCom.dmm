@@ -328,7 +328,7 @@
 	desc = "Huh... I don't think any of us expected there to be a <i>totally</i> legit guide to this."
 	},
 /obj/machinery/light/floor/has_bulb,
-/turf/open/misc/grass,
+/turf/open/floor/wood/large,
 /area/centcom/central_command_areas/admin)
 "aaT" = (
 /obj/vehicle/ridden/scooter/skateboard{
@@ -729,7 +729,7 @@
 "abO" = (
 /obj/machinery/door/airlock/centcom{
 	dir = 4;
-	name = "Ook's Streamer Den"
+	name = "Quote's Office"
 	},
 /obj/effect/mapping_helpers/airlock/access/any/admin/captain,
 /turf/open/floor/iron/dark,
@@ -2462,7 +2462,7 @@
 "agD" = (
 /obj/structure/bed/double,
 /obj/item/bedsheet/ce/double,
-/obj/item/toy/plush/admin/gabbie{
+/obj/item/toy/plush/admin/lucky{
 	pixel_x = 6;
 	pixel_y = 3
 	},
@@ -2500,7 +2500,7 @@
 /obj/item/stack/cannonball,
 /obj/item/stack/cannonball,
 /obj/item/stack/cannonball,
-/turf/open/misc/grass,
+/turf/open/floor/wood/large,
 /area/centcom/central_command_areas/admin)
 "agI" = (
 /obj/effect/turf_decal/siding/wood/corner{
@@ -2729,11 +2729,11 @@
 /area/centcom/central_command_areas/briefing)
 "ahp" = (
 /obj/machinery/ntnet_relay{
-	name = "Ook's Modem";
+	name = "Quote's Modem";
 	is_operational = 0;
 	desc = "A very complex router and transmitter capable of connecting electronic devices together. Did Ook somehow steal this hunk of junk from NT or something??"
 	},
-/turf/open/misc/grass,
+/turf/open/floor/wood/large,
 /area/centcom/central_command_areas/admin)
 "ahq" = (
 /obj/item/cardboard_cutout,
@@ -2817,7 +2817,7 @@
 /area/centcom/central_command_areas/supply)
 "ahA" = (
 /obj/structure/extinguisher_cabinet/directional/west,
-/turf/open/misc/grass,
+/turf/open/floor/wood/large,
 /area/centcom/central_command_areas/admin)
 "ahB" = (
 /obj/item/clothing/mask/gondola,
@@ -5198,7 +5198,7 @@
 	dir = 4;
 	desc = "Resort to the cannon at the top of the stairs loaded with GRAPESHOT!"
 	},
-/turf/open/misc/grass,
+/turf/open/floor/wood/large,
 /area/centcom/central_command_areas/admin)
 "anP" = (
 /obj/structure/hedge,
@@ -6583,7 +6583,7 @@
 /obj/structure/closet/crate/bin{
 	name = "treat storage"
 	},
-/turf/open/misc/grass,
+/turf/open/floor/wood/large,
 /area/centcom/central_command_areas/admin)
 "arI" = (
 /obj/structure/flora/bush/fullgrass,
@@ -7547,9 +7547,6 @@
 	},
 /turf/open/floor/wood/large,
 /area/centcom/central_command_areas/admin_hangout)
-"auk" = (
-/turf/open/misc/grass,
-/area/centcom/central_command_areas/admin)
 "aul" = (
 /obj/effect/turf_decal/trimline/yellow/filled/line{
 	dir = 4
@@ -8549,9 +8546,10 @@
 /obj/structure/table/reinforced/plasmarglass,
 /obj/item/banhammer{
 	desc = "A terrible weapon that has seen countless use over the ages. It looks like Ook doesn't use this thing much. A good thing for you guys!";
-	force = -10
+	force = -10;
+	name = "'nishhammer"
 	},
-/turf/open/misc/grass,
+/turf/open/floor/wood/large,
 /area/centcom/central_command_areas/admin)
 "awR" = (
 /obj/structure/mineral_door/wood/large_gate,
@@ -8877,8 +8875,12 @@
 /area/centcom/syndicate_mothership/expansion_chemicalwarfare)
 "axP" = (
 /obj/structure/table/wood,
-/obj/item/flashlight/lamp/bananalamp,
-/turf/open/misc/grass,
+/obj/item/reagent_containers/cup/glass/mug/britcup{
+	pixel_y = 7;
+	pixel_x = -7
+	},
+/obj/item/flashlight/lamp/green,
+/turf/open/floor/wood/large,
 /area/centcom/central_command_areas/admin)
 "axQ" = (
 /obj/effect/turf_decal/stripes/line{
@@ -9200,9 +9202,10 @@
 "ayw" = (
 /obj/structure/table/wood,
 /obj/item/modular_computer/laptop/preset/civilian{
-	desc = "A low-end laptop often used for personal recreation. Looks like Ook's gaming computer. Thankfully these things are at least somewhat robust."
+	desc = "A low-end laptop often used for personal recreation. Looks like Ook's gaming computer. Thankfully these things are at least somewhat robust.";
+	name = "Quote's Thinkpad"
 	},
-/turf/open/misc/grass,
+/turf/open/floor/wood/large,
 /area/centcom/central_command_areas/admin)
 "ayx" = (
 /obj/machinery/door/airlock/maintenance/external{
@@ -10813,7 +10816,7 @@
 /area/centcom/central_command_areas/adminroom)
 "aCO" = (
 /obj/structure/fireaxecabinet/directional/north,
-/turf/open/misc/grass,
+/turf/open/floor/wood/large,
 /area/centcom/central_command_areas/admin)
 "aCP" = (
 /obj/structure/flora/rock/icy/style_random,
@@ -11223,7 +11226,7 @@
 /obj/structure/fermenting_barrel/gunpowder,
 /obj/item/reagent_containers/cup/bucket/wooden,
 /obj/item/flashlight/flare/torch,
-/turf/open/misc/grass,
+/turf/open/floor/wood/large,
 /area/centcom/central_command_areas/admin)
 "aDU" = (
 /obj/effect/turf_decal/siding/wood{
@@ -13140,7 +13143,7 @@
 /turf/open/indestructible/event/plating,
 /area/centcom/tdome/arena/actual)
 "aJi" = (
-/turf/open/floor/carpet/neon/simple/white,
+/turf/open/floor/carpet/neon/simple/pink,
 /area/centcom/central_command_areas/admin)
 "aJj" = (
 /obj/structure/chair/stool/sandstone,
@@ -16356,7 +16359,7 @@
 	dir = 1;
 	desc = "A specialized console to connect to gaming computers to be able to broadcast live. Seriously, where does Ook find this stuff?"
 	},
-/turf/open/misc/grass,
+/turf/open/floor/wood/large,
 /area/centcom/central_command_areas/admin)
 "aRL" = (
 /obj/effect/turf_decal/tile/dark/diagonal_edge,
@@ -16463,10 +16466,8 @@
 /obj/structure/chair/bronze{
 	name = "gamer chair mk2"
 	},
-/obj/item/toy/plush/moth/ookplush{
-	name = "Ook"
-	},
-/turf/open/floor/carpet/neon/simple/white,
+/obj/item/toy/plush/admin/quote,
+/turf/open/floor/carpet/neon/simple/pink,
 /area/centcom/central_command_areas/admin)
 "aSb" = (
 /obj/structure/rack/gunrack,
@@ -16692,11 +16693,11 @@
 /area/centcom/central_command_areas/evacuation/ship)
 "aSD" = (
 /obj/machinery/blackbox_recorder{
-	name = "Ook's Backups";
+	name = "Quote's Backups";
 	desc = "Huh, who would've thought Ook used tape drives to keep his data backed up safe and sound!"
 	},
 /obj/machinery/light/floor/has_bulb,
-/turf/open/misc/grass,
+/turf/open/floor/wood/large,
 /area/centcom/central_command_areas/admin)
 "aSE" = (
 /obj/structure/fake_stairs/stone{
@@ -20902,11 +20903,7 @@
 /area/centcom/central_command_areas/evacuation)
 "dky" = (
 /obj/structure/table,
-/obj/item/toy/plush/admin/fortune,
-/obj/item/toy/plush/admin/lavender{
-	pixel_y = 12;
-	pixel_x = 9
-	},
+/obj/item/toy/plush/admin/lucky,
 /obj/effect/turf_decal/tile/dark_purple/fourcorners,
 /turf/open/floor/iron/textured,
 /area/centcom/central_command_areas/admin)
@@ -22345,16 +22342,7 @@
 /area/centcom/central_command_areas/admin)
 "gcx" = (
 /obj/structure/table,
-/obj/item/toy/plush/admin/brad,
-/obj/item/toy/plush/admin/jace{
-	pixel_y = 12;
-	pixel_x = -10
-	},
-/obj/item/toy/plush/admin/tendsthefire{
-	pixel_x = 7;
-	pixel_y = 20
-	},
-/obj/item/toy/plush/admin/veth,
+/obj/item/toy/plush/admin/soot,
 /obj/effect/turf_decal/tile/dark_purple/fourcorners,
 /turf/open/floor/iron/textured,
 /area/centcom/central_command_areas/admin)
@@ -23752,15 +23740,7 @@
 /area/centcom/central_command_areas/admin)
 "hUE" = (
 /obj/structure/table,
-/obj/item/toy/plush/admin/amunsethep,
-/obj/item/toy/plush/admin/raziel{
-	pixel_x = 9
-	},
-/obj/item/toy/plush/admin/richard_deckard{
-	pixel_y = 10;
-	pixel_x = -6
-	},
-/obj/item/toy/plush/admin/waffles,
+/obj/item/toy/plush/admin/kuz/defiled,
 /obj/effect/turf_decal/tile/dark_purple/fourcorners,
 /obj/machinery/light/directional/north,
 /turf/open/floor/iron/textured,
@@ -24615,15 +24595,7 @@
 /area/centcom/central_command_areas/admin)
 "jyl" = (
 /obj/structure/table,
-/obj/item/toy/plush/admin/ben_mothman,
-/obj/item/toy/plush/admin/haileyspire{
-	pixel_x = -8;
-	pixel_y = 12
-	},
-/obj/item/toy/plush/admin/syndi_kate{
-	pixel_y = 12;
-	pixel_x = 9
-	},
+/obj/item/toy/plush/admin/kuz,
 /obj/effect/turf_decal/tile/dark_purple/fourcorners,
 /turf/open/floor/iron/textured,
 /area/centcom/central_command_areas/admin)
@@ -24707,10 +24679,7 @@
 /area/centcom/central_command_areas/prison/cells)
 "jFm" = (
 /obj/structure/table,
-/obj/item/toy/plush/admin/andrea,
-/obj/item/toy/plush/admin/pippi{
-	pixel_y = 11
-	},
+/obj/item/toy/plush/admin/froot,
 /obj/effect/turf_decal/tile/dark_purple/fourcorners,
 /turf/open/floor/iron/textured,
 /area/centcom/central_command_areas/admin)
@@ -25741,16 +25710,7 @@
 /area/centcom/central_command_areas/admin)
 "lsb" = (
 /obj/structure/table,
-/obj/item/toy/plush/admin,
-/obj/item/toy/plush/admin/abraxis,
-/obj/item/toy/plush/admin/gabbie{
-	pixel_y = 9;
-	pixel_x = -6
-	},
-/obj/item/toy/plush/admin/sydneysahrin{
-	pixel_y = 9;
-	pixel_x = 8
-	},
+/obj/item/toy/plush/admin/doll,
 /obj/effect/turf_decal/tile/dark_purple/fourcorners,
 /turf/open/floor/iron/textured,
 /area/centcom/central_command_areas/admin)
@@ -26521,7 +26481,7 @@
 /turf/open/floor/mineral/plastitanium,
 /area/centcom/central_command_areas/adminroom)
 "mZX" = (
-/obj/item/toy/plush/admin/jace,
+/obj/item/toy/plush/admin/lucky,
 /obj/effect/turf_decal/tile/hot_pink/full{
 	color = "#e6a7b9"
 	},
@@ -27323,8 +27283,8 @@
 	desc = "Property of Ben Mothman, smells like lint."
 	},
 /obj/item/modular_computer/laptop/preset/security,
-/obj/item/toy/plush/admin/ben_mothman,
-/turf/open/misc/grass,
+/obj/item/toy/plush/admin/lucky,
+/turf/open/floor/wood/large,
 /area/centcom/central_command_areas/admin)
 "oxj" = (
 /obj/effect/turf_decal/siding/wood{
@@ -27768,7 +27728,6 @@
 /area/cruiser_dock)
 "pmQ" = (
 /obj/structure/table/reinforced/plasmarglass,
-/obj/item/toy/plush/admin/veth,
 /turf/open/floor/grass,
 /area/centcom/central_command_areas/admin)
 "pnO" = (
@@ -32314,12 +32273,7 @@
 /area/centcom/central_command_areas/adminroom)
 "xnN" = (
 /obj/structure/table,
-/obj/item/toy/plush/admin/cassielpip,
-/obj/item/toy/plush/admin/marisa{
-	pixel_y = 12;
-	pixel_x = -8
-	},
-/obj/item/toy/plush/admin/vicky,
+/obj/item/toy/plush/admin/quote,
 /obj/effect/turf_decal/tile/dark_purple/fourcorners,
 /turf/open/floor/iron/textured,
 /area/centcom/central_command_areas/admin)
@@ -59998,9 +59952,9 @@ axx
 agn
 aOn
 aSD
-auk
-auk
-auk
+aMc
+aMc
+aMc
 aRK
 aOn
 oQo
@@ -60512,9 +60466,9 @@ aAo
 aoB
 aOn
 awQ
-auk
+aMc
 aJi
-auk
+aMc
 axP
 aOn
 oQo
@@ -60769,10 +60723,10 @@ azY
 agn
 aOn
 aaS
-auk
+aMc
 aJi
-auk
-auk
+aMc
+aMc
 aOn
 oQo
 iNJ
@@ -61025,10 +60979,10 @@ aAo
 aFU
 agn
 aOn
-auk
-auk
+aMc
+aMc
 aJi
-auk
+aMc
 arH
 aOn
 oQo
