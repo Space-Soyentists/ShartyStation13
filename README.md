@@ -1,7 +1,7 @@
 # Snarky Snappy codebase
 <a href="https://soylent.com"><img src="https://gitgud.io/SnarkySnappySS13/ShartyStation13/-/raw/master/.gitlab/images/fueledby.png" height="35" width="148.5"></a>
 <a href="https://jakparty.soy"><img src="https://gitgud.io/SnarkySnappySS13/ShartyStation13/-/raw/master/.gitlab/images/bviltwith.png" height="35" width="211.5"></a>
-<a href="https://soybooru.com"><img src="https://gitgud.io/SnarkySnappySS13/ShartyStation13/-/raw/master/.gitlab/images/contains.png" height="35" width="200"></a>
+<a href="https://soybooru.com"><img src="https://gitgud.io/SnarkySnappySS13/ShartyStation13/-/raw/master/.gitlab/images/contains.png" height="35" width="136"></a>
 [![forinfinityandbyond](https://user-images.githubusercontent.com/5211576/29499758-4efff304-85e6-11e7-8267-62919c3688a9.gif)](https://www.reddit.com/r/SS13/comments/5oplxp/what_is_the_main_problem_with_byond_as_an_engine/dclbu1a)
 
 | Website                 | Link                                           |
