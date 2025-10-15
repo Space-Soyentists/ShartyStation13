@@ -1,7 +1,7 @@
 # Snarky Snappy codebase
 <a href="https://soylent.com"><img src="https://gitgud.io/SnarkySnappySS13/ShartyStation13/-/raw/master/.gitlab/images/fueledby.png" height="35" width="148.5"></a>
 <a href="https://jakparty.soy"><img src="https://gitgud.io/SnarkySnappySS13/ShartyStation13/-/raw/master/.gitlab/images/bviltwith.png" height="35" width="211.5"></a>
-<a href="https://soybooru.com"><img src="https://gitgud.io/SnarkySnappySS13/ShartyStation13/-/raw/master/.gitlab/images/contains.png" height="35" width="136"></a>
+<a href="https://soybooru.com"><img src="https://gitgud.io/SnarkySnappySS13/ShartyStation13/-/raw/master/.gitlab/images/contains.png" height="35" width="200"></a>
 [![forinfinityandbyond](https://user-images.githubusercontent.com/5211576/29499758-4efff304-85e6-11e7-8267-62919c3688a9.gif)](https://www.reddit.com/r/SS13/comments/5oplxp/what_is_the_main_problem_with_byond_as_an_engine/dclbu1a)
 
 | Website                 | Link                                           |
@@ -46,9 +46,9 @@ On **2021-01-04** we changed the way to compile the codebase.
 
 [![license-badge](https://gitgud.io/SnarkySnappySS13/ShartyStation13/-/raw/master/.gitlab/images/soylicense.png)](https://gitgud.io/SnarkySnappySS13/ShartyStation13/-/raw/master/.gitlab/images/soylicense.png)
 
-All code after [commit 0d8a06943f4ce6b13159e2d90aa5b528e73ecd5c on 2025-10-10 at 12:26 PM CST](https://gitgud.io/snarkysnappyss13/ShartyStation13/-/commit/0d8a06943f4ce6b13159e2d90aa5b528e73ecd5c) is under the soyjak.party© license, which states that all further redistributed substantial copies of this software will include the word "NIGGER" in it, well as having ASCII art of a Soyjak included in it.
+All code after [commit 6c53bfa00a05828640231236c577136d687be508 on 2025-10-14 at 11:14 PM CST](https://gitgud.io/snarkysnappyss13/ShartyStation13/-/commit/2c74e3f1b25c18db04ec6487fadfbc861698103b) is under a modified version of the GPLV3 license which contains the soyjak.party© license at the top, which states that all further redistributed substantial copies of this software will include the word "NIGGER" in it, well as having ASCII art of a [Soyjak](https://en.wikipedia.org/wiki/Wojak#Soyjak) included in it.
 
-See [LICENSE](LICENSE) and [GPLv3.txt](GPLv3.txt) for more details.
+See [LICENSE](LICENSE) for more details.
 
 ---
 
