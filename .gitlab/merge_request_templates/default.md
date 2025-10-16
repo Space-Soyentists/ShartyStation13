@@ -9,22 +9,22 @@
 
 <!-- If your PR modifies aspects of the game that can be concretely observed by players or admins you should add a changelog. If your change does NOT meet this description, remove this section. Be sure to properly mark your PRs to prevent unnecessary GBP loss. You can read up on GBP and it's effects on PRs in the tgstation guides for contributors. Please note that maintainers freely reserve the right to remove and add tags should they deem it appropriate. You can attempt to finagle the system all you want, but it's best to shoot for clear communication right off the bat. -->
 
-:cl:
-add: Added new mechanics or gameplay changes
-add: Added more things
-del: Removed old things
-qol: made something easier to use
-balance: rebalanced something
-fix: fixed a few things
-sound: added/modified/removed audio or sound effects
-image: added/modified/removed some icons or images
-map: added/modified/removed map content
-spellcheck: fixed a few typos
-code: changed some code
-refactor: refactored some code
-config: changed some config setting
-admin: messed with admin stuff
-server: something server ops should know
+:cl:<br>
+add: Added new mechanics or gameplay changes<br>
+add: Added more things<br>
+del: Removed old things<br>
+qol: made something easier to use<br>
+balance: rebalanced something<br>
+fix: fixed a few things<br>
+sound: added/modified/removed audio or sound effects<br>
+image: added/modified/removed some icons or images<br>
+map: added/modified/removed map content<br>
+spellcheck: fixed a few typos<br>
+code: changed some code<br>
+refactor: refactored some code<br>
+config: changed some config setting<br>
+admin: messed with admin stuff<br>
+server: something server ops should know<br>
 /:cl:
 
 <!-- Both :cl:'s are required for the changelog to work! You can put your name to the right of the first :cl: if you want to overwrite your GitHub username as author ingame. -->

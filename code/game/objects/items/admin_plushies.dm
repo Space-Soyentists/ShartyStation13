@@ -64,7 +64,7 @@
 	name = "Kuz Plush (Defiled)"
 	item_path = /obj/item/toy/plush/admin/kuz/defiled
 	item_cost = 7499
-/obj/item/toy/plush/admin/kuz/defiled/plop(obj/item/toy/plush/Daddy) //other plushies can still create carter jrs, fix later?
+/obj/item/toy/plush/admin/kuz/defiled/plop(obj/item/toy/plush/Daddy)
 	return FALSE
 
 /obj/item/toy/plush/admin/doll
