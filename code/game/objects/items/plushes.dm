@@ -18,7 +18,7 @@
 	var/obj/item/toy/plush/plush_child
 	var/obj/item/toy/plush/paternal_parent //who initiated creation
 	var/obj/item/toy/plush/maternal_parent //who owns, see love()
-	var/static/list/breeding_blacklist = list(typecacheof(/obj/item/toy/plush/carpplushie/dehy_carp), typecacheof(/obj/item/toy/plush/admin/kuz/defiled))
+	var/static/list/breeding_blacklist = list(/obj/item/toy/plush/carpplushie/dehy_carp, /obj/item/toy/plush/admin/kuz/defiled)
 	var/list/scorned = list() //who the plush hates
 	var/list/scorned_by = list() //who hates the plush, to remove external references on Destroy()
 	var/heartbroken = FALSE
@@ -177,7 +177,7 @@
 	var/loyalty = 30 //why should another get between us?
 	var/duty = 50 //conquering another's is what I live for
 
-	//we are not catholic
+	//we are not faggots
 	if(young == TRUE || Kisser.young == TRUE)
 		user.show_message(span_notice("[src] plays tag with [Kisser]."), MSG_VISUAL,
 			span_notice("They're happy."), NONE)
@@ -296,7 +296,7 @@
 	if(partner != Daddy)
 		return FALSE //we do not have bastards in our toyshop
 
-	if(is_type_in_typecache(Daddy, breeding_blacklist))
+	if(is_type_in_typecache(Daddy, typecacheof(breeding_blacklist)))
 		return FALSE // some love is forbidden
 
 	if(prob(50)) //it has my eyes
