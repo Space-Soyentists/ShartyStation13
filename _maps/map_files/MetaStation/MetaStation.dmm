@@ -25818,14 +25818,6 @@
 	},
 /turf/open/floor/iron,
 /area/station/engineering/shipbreaker_hut)
-"jbR" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 1
-	},
-/obj/effect/turf_decal/siding/wood,
-/obj/effect/mob_spawn/ghost_role/drone/bar,
-/turf/open/floor/wood/parquet,
-/area/station/command/heads_quarters/nt_rep)
 "jcd" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
@@ -38300,7 +38292,6 @@
 	pixel_y = 32
 	},
 /obj/structure/table/wood,
-/obj/item/storage/backpack/duffelbag/drone,
 /obj/structure/window/reinforced/spawner/directional/south,
 /turf/open/floor/carpet,
 /area/station/command/corporate_showroom)
@@ -69063,7 +69054,6 @@
 /turf/open/floor/plating,
 /area/station/maintenance/aft/greater)
 "xWJ" = (
-/obj/machinery/drone_dispenser/preloaded,
 /turf/open/floor/plating,
 /area/station/maintenance/department/science/central)
 "xWQ" = (
@@ -99858,7 +99848,7 @@ hdk
 mzK
 hJK
 lwI
-jbR
+hjc
 wou
 tvE
 kQq

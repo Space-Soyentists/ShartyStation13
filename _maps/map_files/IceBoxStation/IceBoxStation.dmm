@@ -75137,6 +75137,9 @@
 /obj/effect/turf_decal/tile/red/half/contrasted,
 /turf/open/floor/iron/dark/textured_half,
 /area/station/security/office)
+"xLf" = (
+/turf/open/space/basic,
+/area/space)
 "xLi" = (
 /obj/structure/chair/sofa/corp/left,
 /obj/machinery/station_map/engineering/directional/north,
@@ -146806,7 +146809,7 @@ tjo
 tjo
 tjo
 tjo
-tjo
+xLf
 tjo
 tjo
 tjo
