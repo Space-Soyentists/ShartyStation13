@@ -357,6 +357,62 @@
 	name = "Fade (None)"
 	icon_state = "hair_nofade"
 
+/datum/sprite_accessory/hair/dolorosa
+	name = "Fat Brown Pooner's Favorite (1)"
+	icon_state = "hair_dolorosa"
+
+/datum/sprite_accessory/hair/double
+	name = "Fat Brown Pooner's Favorite (2)"
+	icon_state = "hair_double"
+
+/datum/sprite_accessory/hair/egg
+	name = "Fat Brown Pooner's Favorite (3)"
+	icon_state = "hair_egg"
+
+/datum/sprite_accessory/hair/eight
+	name = "Fat Brown Pooner's Favorite (4)"
+	icon_state = "hair_eight"
+
+/datum/sprite_accessory/hair/harley
+	name = "Fat Brown Pooner's Favorite (5)"
+	icon_state = "hair_harley"
+
+/datum/sprite_accessory/hair/justice
+	name = "Fat Brown Pooner's Favorite (6)"
+	icon_state = "hair_justice"
+
+/datum/sprite_accessory/hair/manime
+	name = "Fat Brown Pooner's Favorite (7)"
+	icon_state = "hair_manime"
+
+/datum/sprite_accessory/hair/meow
+	name = "Fat Brown Pooner's Favorite (8)"
+	icon_state = "hair_meow"
+
+/datum/sprite_accessory/hair/miracles
+	name = "Fat Brown Pooner's Favorite (9)"
+	icon_state = "hair_miracles"
+
+/datum/sprite_accessory/hair/prince
+	name = "Fat Brown Pooner's Favorite (10)"
+	icon_state = "hair_prince"
+
+/datum/sprite_accessory/hair/pupa
+	name = "Fat Brown Pooner's Favorite (11)"
+	icon_state = "hair_pupa"
+
+/datum/sprite_accessory/hair/rosemary
+	name = "Fat Brown Pooner's Favorite (12)"
+	icon_state = "hair_rosemary"
+
+/datum/sprite_accessory/hair/stride
+	name = "Fat Brown Pooner's Favorite (13)"
+	icon_state = "hair_stride"
+
+/datum/sprite_accessory/hair/thresh
+	name = "Fat Brown Pooner's Favorite (14)"
+	icon_state = "hair_thresh"
+
 /datum/sprite_accessory/hair/highfade
 	name = "Fade (High)"
 	icon_state = "hair_highfade"
@@ -1570,14 +1626,9 @@
 	icon_state = "shirt_jarty"
 	gender = NEUTER
 
-/datum/sprite_accessory/undershirt/shirt_tranny
-	name = "T-Shirt (Tranny)"
-	icon_state = "shirt_tranny"
-	gender = NEUTER
-
-/datum/sprite_accessory/undershirt/shirt_nate
-	name = "T-Shirt (Nate)"
-	icon_state = "shirt_nate"
+/datum/sprite_accessory/undershirt/shirt_trans
+	name = "T-Shirt (Trans)"
+	icon_state = "shirt_trans"
 	gender = NEUTER
 
 ///////////////////////
