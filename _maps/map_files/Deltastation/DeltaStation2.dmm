@@ -9701,10 +9701,6 @@
 /obj/item/radio/intercom/directional/south,
 /turf/open/floor/iron/dark,
 /area/station/medical/morgue)
-"ciO" = (
-/obj/effect/mob_spawn/ghost_role/drone/bar,
-/turf/open/floor/carpet/green,
-/area/station/command/heads_quarters/nt_rep)
 "cjh" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/effect/turf_decal/box/white/corners{
@@ -17567,7 +17563,6 @@
 /turf/open/floor/iron,
 /area/station/command/gateway)
 "eeZ" = (
-/obj/item/exodrone,
 /obj/machinery/exodrone_launcher,
 /obj/effect/turf_decal/box,
 /obj/effect/decal/cleanable/oil/slippery,
@@ -51957,9 +51952,6 @@
 /turf/open/floor/glass/reinforced,
 /area/station/commons/fitness/recreation)
 "mhe" = (
-/obj/item/exodrone{
-	pixel_y = 8
-	},
 /obj/structure/table,
 /obj/machinery/airalarm/directional/west,
 /obj/effect/turf_decal/tile/brown/anticorner/contrasted{
@@ -88860,7 +88852,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/delivery,
-/obj/machinery/drone_dispenser/preloaded,
 /obj/effect/turf_decal/tile/neutral/anticorner/contrasted{
 	dir = 8
 	},
@@ -143504,7 +143495,7 @@ dvy
 lSl
 pwG
 pCc
-ciO
+voW
 cZk
 piR
 vEl
