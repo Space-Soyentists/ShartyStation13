@@ -288,75 +288,81 @@ monkestation edit end */
 
 /datum/emote/living/carbon/human/doctos
 	key = "doctos"
-	key_third_person = "doctos"
+	key_third_person = "doctoses"
 	message = "loudly screams \"DOCTOS\"! "
-	message_mime = "sildentl screams \"DOCTOS\"."
+	message_mime = "silently acts out a \"DOCTOS\"."
 	emote_type = EMOTE_VISIBLE | EMOTE_AUDIBLE
-	//cooldown = 10 SECONDS // no spammy spam spam pls
-	// fuck it. no cooldown. DOCTOS doesnt need a cooldown
-	// Cooldowns are just rulecucked features anyway fuck you
-	// tsmt ^^^
-
-#define DOCTOS_FROG  0
-#define DOCTOS_LESOTHO 1
-#define DOCTOS_NORMAL 2
 
 /datum/emote/living/carbon/human/doctos/run_emote(mob/living/carbon/human/user, params, type_override, intentional)
 	. = ..()
-	var/doctos_type = DOCTOS_NORMAL
-	var/list/sound2play = list(
-		'sound/voice/doctos/Doctosvoice1.ogg',
-		'sound/voice/doctos/Doctosvoice2.ogg',
-		'sound/voice/doctos/Doctosvoice3.ogg',
-		'sound/voice/doctos/Doctosvoice4.ogg'
+	var/doctos_state = "normal"
+	var/list/soundlist = list(
+		'sound/voice/doctos/doctos1.ogg',
+		'sound/voice/doctos/doctos2.ogg',
+		'sound/voice/doctos/doctos3.ogg',
+		'sound/voice/doctos/doctos4.ogg',
+		'sound/voice/doctos/doctos5.ogg',
+		'sound/voice/doctos/doctos6.ogg',
+		'sound/voice/doctos/doctos7.ogg',
+		'sound/voice/doctos/doctos8.ogg',
 	)
 
-	if(isfrog(user))
-		doctos_type = DOCTOS_FROG
-		sound2play = list('sound/voice/doctos/ribit1.mp3')
-	else if(user.skin_tone == "african1" || user.skin_tone == "african2")
-		doctos_type = DOCTOS_LESOTHO
-	else if(prob(1))
-		doctos_type = DOCTOS_LESOTHO
-
-	if(doctos_type == DOCTOS_LESOTHO)
-		sound2play = list(
-			'sound/voice/doctos/lesothovoice1.mp3',
-			'sound/voice/doctos/lesothovoice2.mp3',
-			'sound/voice/doctos/lesothovoice3.mp3',
-			'sound/voice/doctos/lesothovoice4.mp3'
+	if(user.gender != FEMALE)
+		if(user.skin_tone == "african1" || user.skin_tone == "african2")
+			doctos_state = "lesotho"
+			soundlist = list(
+				'sound/voice/doctos/doctoslesotho1.ogg',
+				'sound/voice/doctos/doctoslesotho2.ogg',
+				'sound/voice/doctos/doctoslesotho3.ogg',
+				'sound/voice/doctos/doctoslesotho4.ogg'
+			)
+		else if(prob(1))
+			doctos_state = "caveman"
+			soundlist = list('sound/voice/doctos/doctoscaveman.ogg')
+	else if(user.gender == FEMALE)
+		doctos_state = "female"
+		soundlist = list(
+			'sound/voice/doctos/doctosfemale1.ogg',
+			'sound/voice/doctos/doctosfemale2.ogg',
+			'sound/voice/doctos/doctosfemale3.ogg'
 		)
+	if(user.skin_tone == "african1" || user.skin_tone == "african2")
+		doctos_state = "lesotho_female"
+		soundlist = list(
+				'sound/voice/doctos/doctoslesothofemale1.ogg',
+				'sound/voice/doctos/doctoslesothofemale2.ogg',
+				'sound/voice/doctos/doctoslesothofemale3.ogg'
+		)
+	if(isfrog(user))
+		doctos_state = "frog"
+		soundlist = list('sound/voice/doctos/ribbit.ogg')
 
-	var/image/soyjack = image(
+	var/image/soyjak = image(
 		icon = 'icons/hud/doctos.dmi',
-		icon_state = "[doctos_type]",
+		icon_state = "[doctos_state]",
 		loc = user.loc,
 		layer = HUD_PLANE
 	)
-	soyjack.pixel_y = 32
-	soyjack.alpha = 0
-	soyjack.plane = HUD_PLANE
+	soyjak.pixel_y = 32
+	soyjak.alpha = 0
+	soyjak.plane = HUD_PLANE
 
-	// yeah I dont wanna initalize a fucking effect obj
-	// just for a shitty visual effect
-	// Probably has no impact on performance what-so-ever lol
+	// unlike bam i do want to initalize a fucking effect obj for a shitty visual effect
+	// however i don't know how to so i won't! geg
 	for(var/client/C in GLOB.clients)
-		C.images |= soyjack
+		C.images |= soyjak
 
-	// DO NOT FUCKING FLICKER (goon) YOU DUMB PIECE OF SHIT
-	soyjack.alpha = 0
-	animate(soyjack, alpha = 255, time = 2)
-	// ok the flicker gooning stays whatever
+	if(user.stat == CONSCIOUS) // no more unconscious doctos
+		// DO NOT FUCKING FLICKER (goon) YOU DUMB PIECE OF SHIT
+		soyjak.alpha = 0
+		animate(soyjak, alpha = 255, time = 2)
+		// ok the flicker gooning stays whatever
 
-	playsound(user, pick(sound2play), 30, FALSE)
+		playsound(user, pick(soundlist), 30, FALSE)
 
-	// Nested spawns look ugly lol
-	spawn(10)
-		animate(soyjack, alpha = 0, time = 2)
-		spawn(2)
-			for(var/client/C in GLOB.clients)
-				C.images -= soyjack
-
-#undef DOCTOS_FROG
-#undef DOCTOS_LESOTHO
-#undef DOCTOS_NORMAL
+		// Nested spawns look ugly lol
+		spawn(10)
+			animate(soyjak, alpha = 0, time = 2)
+			spawn(2)
+				for(var/client/C in GLOB.clients)
+					C.images -= soyjak

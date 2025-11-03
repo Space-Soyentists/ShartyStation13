@@ -69,7 +69,7 @@
 
 /obj/item/toy/plush/admin/doll
 	name = "doll"
-	desc = "<i>\"dada\"</i><br>The tag has the KolymaNET logo and is labeled 'DOLL'."
+	desc = "<i>\"dada\"</i><br>The tag has the KolymaNET logo and is labeled 'DOLL'. <i>(Our beloved voice actor - DOLL_USER)</i>"
 	icon_state = "doll"
 	attack_verb_continuous = list("administrates", "dolls", "cacas")
 	attack_verb_simple = list("administrate", "doll", "caca")
