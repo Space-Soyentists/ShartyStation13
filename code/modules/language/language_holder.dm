@@ -357,7 +357,8 @@ Key procs
 								/datum/language/ashtongue = list(LANGUAGE_ATOM),
 								/datum/language/goblin = list(LANGUAGE_ATOM),
 								/datum/language/nekomimetic = list(LANGUAGE_ATOM),
-								/datum/language/yangyu = list(LANGUAGE_ATOM))
+								/datum/language/yangyu = list(LANGUAGE_ATOM),
+								/datum/language/chanspeak = list(LANGUAGE_ATOM))
 	spoken_languages = list(/datum/language/common = list(LANGUAGE_ATOM),
 								/datum/language/uncommon = list(LANGUAGE_ATOM),
 								/datum/language/machine = list(LANGUAGE_ATOM),
@@ -373,7 +374,8 @@ Key procs
 								/datum/language/ashtongue = list(LANGUAGE_ATOM),
 								/datum/language/goblin = list(LANGUAGE_ATOM),
 								/datum/language/nekomimetic = list(LANGUAGE_ATOM),
-								/datum/language/yangyu = list(LANGUAGE_ATOM))
+								/datum/language/yangyu = list(LANGUAGE_ATOM),
+								/datum/language/chanspeak = list(LANGUAGE_ATOM))
 
 /datum/language_holder/moth
 	understood_languages = list(/datum/language/common = list(LANGUAGE_ATOM),
