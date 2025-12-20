@@ -10,6 +10,36 @@
 	"genre": "Jazz"
 	},
 	{
+	"url": "https://files.catbox.moe/0kmi8h.mp3",
+	"title": "Rockin' Around The Christmas Tree",
+	"duration": 1260,
+	"artist": "Brenda Lee",
+	"secret": false,
+	"lobby": true,
+	"jukebox": true,
+	"genre": "Jazz"
+	},
+	{
+	"url": "https://files.catbox.moe/e2a1al.mp3",
+	"title": "It's Beginning To Look a Lot Like Shartmas",
+	"duration": 1570,
+	"artist": "Chud",
+	"secret": false,
+	"lobby": true,
+	"jukebox": true,
+	"genre": "Jazz"
+	},
+	{
+	"url": "https://files.catbox.moe/i3lpfi.mp3",
+	"title": "O Tannenbaum",
+	"duration": 3050,
+	"artist": "Vince Guaraldi Trio",
+	"secret": false,
+	"lobby": true,
+	"jukebox": true,
+	"genre": "Jazz"
+	},
+	{
 	"url": "https://files.catbox.moe/q0vvr3.m4a",
 	"title": "Endless Space",
 	"duration": 2140,
