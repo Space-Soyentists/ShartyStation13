@@ -866,7 +866,7 @@
 	attack_verb_continuous = list("gnaws", "gnashes", "chews")
 	attack_verb_simple = list("gnaw", "gnash", "chew")
 
-/obj/item/toy/plush/shitoko_plushie
+/obj/item/toy/plush/shitoko
 	name = "shitoko plushie"
 	desc = "A plushie depticting a chubby, short-haired man. The tag calls it a 'Satoko', noting that it's a Mexican national hero."
 	icon_state = "shitoko"
@@ -875,8 +875,14 @@
 	attack_verb_simple = list("brap", "braap", "braaapp")
 	gender = MALE
 	squeak_override = list(
-	'sound/misc/fart1.ogg' = 1,
-    'monkestation/sound/effects/fart2.ogg' = 1,
-    'monkestation/sound/effects/fart3.ogg' = 1,
-    'monkestation/sound/effects/fart4.ogg' = 1,
+	'sound/misc/fart1.ogg' = 2,
+    'monkestation/sound/effects/fart2.ogg' = 2,
+    'monkestation/sound/effects/fart3.ogg' = 2,
+    'monkestation/sound/effects/fart4.ogg' = 2,
+	'sound/voice/obsessed.ogg' = 1
 	)
+
+/obj/item/toy/plush/shitoko/sombrero
+	name = "beachside shitoko plushie"
+	desc = "A plushie depicting a chubby, sombrero-wearing man with shades. The tag calls it a 'Beachside Satoko', noting that it's a Mexican national hero at rest."
+	icon_state = "shitoko_sombrero"

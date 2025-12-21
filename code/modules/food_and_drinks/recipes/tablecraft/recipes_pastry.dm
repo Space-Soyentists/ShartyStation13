@@ -543,7 +543,7 @@
 /datum/crafting_recipe/food/raisincookie
 	name = "Raisin cookie"
 	reqs = list(
-		/obj/item/food/no_raisin = 1,
+		/obj/item/food/rncaisins = 1,
 		/obj/item/food/pastrybase = 1,
 		/obj/item/food/grown/oat = 1
 	)

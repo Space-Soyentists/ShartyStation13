@@ -218,7 +218,7 @@
 	begin_day = 14
 	begin_month = MARCH
 	poster_name = "pi day poster"
-	poster_desc = "A poster celebrating the 3.141529th day of the year. At least theres free pie."
+	poster_desc = "A poster celebrating the 3.141529th day of the year. At least there's free pie."
 	poster_icon = "holiday_pi"
 
 /datum/holiday/pi/getStationPrefix()
@@ -478,7 +478,7 @@
 	begin_day = 9
 
 /datum/holiday/indigenous/getStationPrefix()
-	return pick("Endangered language", "Word", "Language", "Language revitalization", "Potato", "Corn")
+	return pick("Redskin", "Alcohol", "Conquered", "Spanish", "Portuguese", "French", "British", "Potato", "Corn")
 
 // AUGUST
 
@@ -573,7 +573,7 @@
 	return "Have a spooky Halloween!"
 
 /datum/holiday/halloween/getStationPrefix()
-	return pick("Bone-Rattling","Mr. Bones' Own","2SPOOKY","Spooky","Scary","Skeletons")
+	return pick("Bone-Chilling","Cheap-Jumpscare-Free","A24 Slow-burn","Spooky","Scary","Skeletal")
 
 // NOVEMBER
 

@@ -13,10 +13,10 @@
 	price_min = CARGO_CRATE_VALUE * 2.5
 	price_max = CARGO_CRATE_VALUE * 5
 
-/datum/market_item/auction/gun_part/cirno
-	name = "MK 58 Cirno keychain"
-	desc = "Cirno in keychain form"
-	item = /obj/item/attachment/keychain/mk_58/cirno
+/datum/market_item/auction/gun_part/shitoko
+	name = "MK 58 Shitoko keychain"
+	desc = "Shitoko in keychain form"
+	item = /obj/item/attachment/keychain/mk_58/shitoko
 
 	price_min = CARGO_CRATE_VALUE * 2
 	price_max = CARGO_CRATE_VALUE * 3

@@ -78,7 +78,6 @@
 	demolition_mod = src::demolition_mod
 
 /* REMOVED UNTIL I CAN ACTUALLY BALANCE THIS
-// touhou hijack lol
 // also i know this is a spoon and not a spork, i don't care
 /obj/item/comically_large_spoon/proc/try_scoop_liquids(obj/item/comically_large_spoon/spoon, turf/target, mob/user, obj/effect/abstract/liquid_turf/liquids)
 	SIGNAL_HANDLER

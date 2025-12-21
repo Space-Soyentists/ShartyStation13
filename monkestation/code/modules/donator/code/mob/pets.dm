@@ -45,21 +45,6 @@
 
 	ckeywhitelist = list("ruby_flamewing")
 
-/mob/living/basic/pet/cirno  //nobody needs to know she's a lizard
-	name = "Cirno"
-	desc = "She is the greatest."
-	icon = 'monkestation/icons/obj/plushes.dmi'
-	icon_state = "cirno-happy"
-	icon_living = "cirno-happy"
-	icon_dead = "cirno-happy"
-	icon_gib = null
-	gender = FEMALE
-	gold_core_spawnable = NO_SPAWN
-	ai_controller = /datum/ai_controller/basic_controller/
-	basic_mob_flags = FLIP_ON_DEATH
-
-	ckeywhitelist = list("bidlink2")
-
 /mob/living/basic/lizard/snake
 	name = "Three Headed Snake"
 	desc = "This little fella looks familiar..."

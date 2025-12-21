@@ -119,13 +119,13 @@
 	result = /obj/item/food/powercrepe
 	category = CAT_MISCFOOD
 
-/datum/crafting_recipe/food/branrequests
-	name = "Bran Requests Cereal"
+/datum/crafting_recipe/food/braniggerrequests
+	name = "Branigger Requests Cereal"
 	reqs = list(
 		/obj/item/food/grown/wheat = 1,
-		/obj/item/food/no_raisin = 1,
+		/obj/item/food/rncaisins = 1,
 	)
-	result = /obj/item/food/branrequests
+	result = /obj/item/food/braniggerrequests
 	category = CAT_MISCFOOD
 
 /datum/crafting_recipe/food/ricepudding
@@ -257,7 +257,7 @@
 		/obj/item/food/grown/oat = 1,
 		/obj/item/food/grown/peanut = 1,
 		/obj/item/food/chocolatebar = 1,
-		/obj/item/food/no_raisin = 1,
+		/obj/item/food/rncaisins = 1,
 	)
 	result = /obj/item/food/granola_bar
 	category = CAT_MISCFOOD

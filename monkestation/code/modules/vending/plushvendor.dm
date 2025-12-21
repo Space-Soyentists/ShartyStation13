@@ -51,7 +51,7 @@
 		/obj/item/toy/plush/narplush = 1,
 		/obj/item/toy/plush/whiny_plushie = 1,
 		/obj/item/toy/plush/shark = 1,
-		/obj/item/toy/plush/shitoko_plushie = 1,
+		/obj/item/toy/plush/shitoko = 1,
 	)
 	refill_canister = /obj/item/vending_refill/plushvendor
 	default_price = PAYCHECK_COMMAND * 3 //should be expensive

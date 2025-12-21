@@ -642,7 +642,7 @@
 /turf/open/floor/iron/kitchen/small,
 /area/ruin/space/has_grav/powered/virtual_domain)
 "Gb" = (
-/obj/item/trash/peanuts,
+/obj/item/trash/mnampms,
 /turf/open/floor/iron/kitchen,
 /area/ruin/space/has_grav/powered/virtual_domain)
 "Gn" = (

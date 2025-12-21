@@ -94,15 +94,13 @@ GLOBAL_LIST_INIT(loadout_plushies, generate_loadout_items(/datum/loadout_item/pl
 	name = "Sammi Plush"
 	item_path = /obj/item/toy/plush/sammiplush
 
-/datum/loadout_item/plushies/cirno_plush
-	name = "Cirno Plush"
-	item_path = /obj/item/toy/plush/cirno_plush
+/datum/loadout_item/plushies/shitoko
+	name = "Shitoko Plushie"
+	item_path = /obj/item/toy/plush/shitoko
 
-/datum/loadout_item/plushies/cirno_ballin
-	name = "Cirno Ballin"
-	item_path = /obj/item/toy/plush/cirno_plush/ballin
-	requires_purchase = FALSE
-	ckeywhitelist = list("dwasint")
+/datum/loadout_item/plushies/shitoko_sombrero
+	name = "Beachside Shitoko"
+	item_path = /obj/item/toy/plush/shitoko/sombrero
 
 /datum/loadout_item/plushies/durrcell
 	name = "Durrcell Plush"

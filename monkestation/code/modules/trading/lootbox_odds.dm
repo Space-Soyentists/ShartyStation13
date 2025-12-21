@@ -128,7 +128,6 @@ GLOBAL_LIST_INIT(possible_lootbox_clothing, list(
 		/obj/item/clothing/head/costume/canada,
 		/obj/item/clothing/head/costume/cardborg,
 		/obj/item/clothing/head/costume/chicken,
-		/obj/item/clothing/head/costume/cirno,
 		/obj/item/clothing/head/costume/constable,
 		/obj/item/clothing/head/costume/crown,
 		/obj/item/clothing/head/costume/crown/fancy,

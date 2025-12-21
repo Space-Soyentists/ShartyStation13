@@ -563,15 +563,16 @@
 
 /obj/item/food/kebab/ti_hoeh_koe
 	name = "ti hoeh koe skewer"
-	desc = "Pig blood, mixed with rice, fried, and topped with peanut and coriander. It's an... acquired taste for sure, but it's popular at Prospect's night markets, brought by Taiwanese settlers."
+	desc = "Pig blood, mixed with rice, fried, and topped with salted caramel M&amp;Ms and coriander. It's an... acquired taste for sure, but it's popular at Prospect's night markets, brought by Taiwanese settlers."
 	icon = 'icons/obj/food/martian.dmi'
 	icon_state = "ti_hoeh_koe"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment/vitamin = 1,
 		/datum/reagent/consumable/nutriment/protein = 5,
-		/datum/reagent/consumable/peanut_butter = 1,
+		/datum/reagent/consumable/caramel = 1,
+		/datum/reagent/consumable/salt = 1
 	)
-	tastes = list("blood" = 1, "nuts" = 1, "herbs" = 1)
+	tastes = list("blood" = 1, "salted caramel" = 1, "herbs" = 1)
 	foodtypes = MEAT | NUTS | GRAIN
 	w_class = WEIGHT_CLASS_SMALL
 

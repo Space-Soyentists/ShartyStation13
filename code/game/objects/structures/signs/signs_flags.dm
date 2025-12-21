@@ -45,3 +45,31 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/flag/mothic, 32)
 	icon_state = "flag_mars"
 
 MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/flag/mars, 32)
+
+/obj/structure/sign/flag/sharty
+	name = "flag of soyjak.party"
+	desc = "The flag of soyjak.party. Sparsely flown outside special occasions, its image is unknown to most of soykind."
+	icon_state = "flag_sharty"
+
+MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/flag/sharty, 32)
+
+/obj/structure/sign/flag/lesotho
+	name = "flag of Lesotho"
+	desc = "The flag of Lesotho. Utilized by the Jartycuck pirates, its sight has become truly fearsome to spacemen and Nanotrasen crew alike."
+	icon_state = "flag_lesotho"
+
+MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/flag/lesotho, 32)
+
+/obj/structure/sign/flag/chud
+	name = "flag of the Chud Empire"
+	desc = "The flag of the Chud Empire. Rumor has its symbol was an unintentional butchery of a proto-Chudist movement from 625 years ago."
+	icon_state = "flag_chud"
+
+MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/flag/chud, 32)
+
+/obj/structure/sign/flag/integralist
+	name = "flag of the Brazilian Integralist Action"
+	desc = "A mysterious flag you wouldn't recognize if not for the plaque below it. It belongs to a long-gone political organization from a long-gone country."
+	icon_state = "flag_integralist"
+
+MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/flag/integralist, 32)

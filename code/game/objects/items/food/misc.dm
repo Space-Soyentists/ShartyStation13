@@ -213,16 +213,16 @@
 	foodtypes = GRAIN | FRUIT | SUGAR
 	food_buffs = STATUS_EFFECT_FOOD_SLIDE
 
-/obj/item/food/branrequests
-	name = "Bran Requests Cereal"
-	desc = "A dry cereal that satiates your requests for bran. Tastes uniquely like raisins and salt."
-	icon_state = "bran_requests"
+/obj/item/food/braniggerrequests
+	name = "Branigger Requests Cereal"
+	desc = "A dry cereal that satiates your requests for bran. Tastes uniquely like third world cuisine and salt."
+	icon_state = "branigger_requests"
 	food_reagents = list(
-		/datum/reagent/consumable/nutriment = 3,
-		/datum/reagent/consumable/nutriment/vitamin = 2,
+		/datum/reagent/consumable/nutriment = 5,
+		/datum/reagent/toxin/bad_food = 3,
 		/datum/reagent/consumable/salt = 8,
 	)
-	tastes = list("bran" = 4, "raisins" = 3, "salt" = 1)
+	tastes = list("bran" = 4, "third world \"cuisine\"" = 3, "salt" = 1)
 	foodtypes = GRAIN | FRUIT | BREAKFAST
 	w_class = WEIGHT_CLASS_SMALL
 

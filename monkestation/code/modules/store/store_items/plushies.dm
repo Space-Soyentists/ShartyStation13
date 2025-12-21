@@ -93,10 +93,15 @@ GLOBAL_LIST_INIT(store_plushies, generate_store_items(/datum/store_item/plushies
 	item_path = /obj/item/toy/plush/sammiplush
 	item_cost = 5000
 
-/datum/store_item/plushies/cirno_plush
-	name = "Cirno Plush"
-	item_path = /obj/item/toy/plush/cirno_plush
+/datum/store_item/plushies/shitoko
+	name = "Shitoko Plushie"
+	item_path = /obj/item/toy/plush/shitoko
 	item_cost = 10000
+
+/datum/store_item/plushies/shitoko_sombrero
+	name = "Beachside Shitoko"
+	item_path = /obj/item/toy/plush/shitoko/sombrero
+	item_cost = 15000
 
 /datum/store_item/plushies/knight_plush
 	name = "Knight Plush"

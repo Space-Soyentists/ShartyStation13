@@ -1631,6 +1631,11 @@
 	icon_state = "shirt_trans"
 	gender = NEUTER
 
+/datum/sprite_accessory/undershirt/shirt_nate
+	name = "T-Shirt (Nate)"
+	icon_state = "shirt_nate"
+	gender = NEUTER
+
 ///////////////////////
 // Socks Definitions //
 ///////////////////////
