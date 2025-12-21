@@ -21,7 +21,7 @@
 /turf/open/floor/grass,
 /area/centcom/tdome/arena/actual)
 "o" = (
-/obj/item/food/peanuts/honey_roasted,
+/obj/item/food/mnampms/honey_roasted,
 /turf/open/floor/grass,
 /area/centcom/tdome/arena/actual)
 "r" = (

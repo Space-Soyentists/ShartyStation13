@@ -218,8 +218,6 @@
 			. = "#ffc905"
 		if("soyjak")
 			. = "#FFFFFF"
-		if("frog")
-			. = "#68994B"
 		if("giga")
 			. = "#5E5E5E"
 		if("simpson")

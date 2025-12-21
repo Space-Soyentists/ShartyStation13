@@ -326,13 +326,13 @@ monkestation edit end */
 			'sound/voice/doctos/doctosfemale2.ogg',
 			'sound/voice/doctos/doctosfemale3.ogg'
 		)
-	if(user.skin_tone == "african1" || user.skin_tone == "african2")
-		doctos_state = "lesotho_female"
-		soundlist = list(
-				'sound/voice/doctos/doctoslesothofemale1.ogg',
-				'sound/voice/doctos/doctoslesothofemale2.ogg',
-				'sound/voice/doctos/doctoslesothofemale3.ogg'
-		)
+		if(user.skin_tone == "african1" || user.skin_tone == "african2")
+			doctos_state = "lesotho_female"
+			soundlist = list(
+					'sound/voice/doctos/doctoslesothofemale1.ogg',
+					'sound/voice/doctos/doctoslesothofemale2.ogg',
+					'sound/voice/doctos/doctoslesothofemale3.ogg'
+			)
 	if(isfrog(user))
 		doctos_state = "frog"
 		soundlist = list('sound/voice/doctos/ribbit.ogg')

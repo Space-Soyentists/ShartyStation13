@@ -209,8 +209,8 @@
 /area/template_noop)
 "ki" = (
 /obj/structure/rack/shelf,
-/obj/item/food/peanuts/random,
-/obj/item/food/peanuts/random,
+/obj/item/food/mnampms/random,
+/obj/item/food/mnampms/random,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/turf_decal/bot,
@@ -516,10 +516,10 @@
 /area/template_noop)
 "As" = (
 /obj/structure/rack/shelf,
-/obj/item/food/cnds/random,
-/obj/item/food/cnds/random,
-/obj/item/food/cnds/random,
-/obj/item/food/cnds/random,
+/obj/item/food/dnbs/random,
+/obj/item/food/dnbs/random,
+/obj/item/food/dnbs/random,
+/obj/item/food/dnbs/random,
 /obj/effect/turf_decal/bot,
 /turf/open/floor/mineral/titanium,
 /area/template_noop)

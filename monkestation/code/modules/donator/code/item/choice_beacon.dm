@@ -43,13 +43,6 @@
 	company_message = "Please enjoy your new pet -- some assembly required."
 	donator_pet = 	/mob/living/basic/pet/blahaj
 
-/obj/item/choice_beacon/pet/donator/cirno
-	name = "Cirno"
-	default_name = "Cirno?"
-	company_source = "Touhou"
-	company_message = "Please handle with care!"
-	donator_pet = 	/mob/living/basic/pet/cirno
-
 /obj/item/choice_beacon/pet/donator/slime
 	name = "Slime"
 	default_name = "Slime"

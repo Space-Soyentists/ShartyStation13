@@ -23,32 +23,6 @@
 	donator_only = TRUE
 	requires_purchase = FALSE
 
-//bidlink
-/datum/loadout_item/suit/cirno_outfit
-	name = "Cirno Outfit"
-	item_path = /obj/item/clothing/suit/costume/cirno
-	donator_only = TRUE
-	requires_purchase = FALSE
-
-/datum/loadout_item/head/cirno
-	name = "Cirno Wig"
-	item_path = /obj/item/clothing/head/costume/cirno
-	donator_only = TRUE
-	requires_purchase = FALSE
-
-/datum/loadout_item/pocket_items/donator/cirno
-	name = "Pet Delivery Beacon - Cirno"
-	item_path = /obj/item/choice_beacon/pet/donator/cirno
-	donator_only = TRUE
-	requires_purchase = FALSE
-	ckeywhitelist = list("bidlink2")
-
-/datum/loadout_item/effects/cirno
-	ckeywhitelist = list("bidlink2")
-	name = "Cirno Transformation"
-	item_path = /obj/item/effect_granter/donator/cirno
-	requires_purchase = FALSE
-
 //ttnt
 /datum/loadout_item/head/pot
 	name = "Dented Pot"

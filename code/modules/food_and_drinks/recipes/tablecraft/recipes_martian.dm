@@ -384,7 +384,7 @@
 	name = "Ti hoeh koe"
 	reqs = list(
 		/obj/item/food/boiledrice = 1,
-		/obj/item/food/peanuts/salted = 1,
+		/obj/item/food/mnampms/salted_caramel = 1,
 		/obj/item/food/grown/herbs = 1,
 		/datum/reagent/blood = 5,
 	)

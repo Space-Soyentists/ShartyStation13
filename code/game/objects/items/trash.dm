@@ -21,12 +21,12 @@
 	return ..()
 
 /obj/item/trash/raisins
-	name = "\improper 4no raisins"
-	icon_state= "4no_raisins"
+	name = "\improper RNCAisins"
+	icon_state = "rncaisins"
 
 /obj/item/trash/candy
 	name = "candy"
-	icon_state= "candy"
+	icon_state = "candy"
 
 /obj/item/trash/cheesie
 	name = "cheesie honkers"
@@ -138,14 +138,13 @@
 	pixel_x = rand(-4,4)
 	pixel_y = rand(-4,4)
 
-/obj/item/trash/peanuts
-	name = "\improper Gallery peanuts packet"
-	desc = "This thread is trash!"
-	icon_state = "peanuts"
+/obj/item/trash/mnampms
+	name = "\improper M&amp;Ms"
+	icon_state = "mnamps"
 
-/obj/item/trash/cnds
-	name = "\improper C&Ds packet"
-	icon_state = "cnds"
+/obj/item/trash/dnbs
+	name = "\improper D&Bs packet"
+	icon_state = "dnbs"
 
 /obj/item/trash/can/food/envirochow
 	name = "dog eat dog envirochow"

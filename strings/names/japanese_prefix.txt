@@ -1,5 +1,4 @@
 Anime
-Desu
 Doki Doki
 Dynasty
 Girugamesh
@@ -13,9 +12,10 @@ Sakura
 Salary
 Sama
 Sensei
+Sude
 Supa
 Tokyo
-Touhou
+Troonhou
 Tsundere
 Weeaboo
 Weeb

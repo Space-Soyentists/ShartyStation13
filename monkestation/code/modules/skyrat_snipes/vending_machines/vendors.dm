@@ -33,8 +33,8 @@
 			"name" = "Snacks",
 			"icon" = "cookie",
 			"products" = list(
-				/obj/item/food/peanuts/random = 6,
-				/obj/item/food/cnds/random = 6,
+				/obj/item/food/mnampms/random = 6,
+				/obj/item/food/dnbs/random = 6,
 				/obj/item/food/pistachios = 6,
 				/obj/item/food/cornchips/random = 6,
 				/obj/item/food/sosjerky = 6,

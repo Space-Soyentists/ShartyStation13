@@ -261,7 +261,7 @@
 		source = sac_target,
 		action = NOTIFY_ORBIT,
 		notify_flags = NOTIFY_CATEGORY_NOFLASH,
-		header = "touhou hijack lol",
+		header = "[sac_target] Sacrificed to Mansus.",
 	)
 
 	sac_target.visible_message(span_danger("[sac_target] begins to shudder violenty as dark tendrils begin to drag them into thin air!"))

@@ -42,8 +42,8 @@
 /mob/living/basic/possession_holder/New(loc, obj/item/_stored_item)
 	. = ..()
 	if(!_stored_item)
-		_stored_item = new /obj/item/toy/plush/cirno_plush/ballin(src)
-		message_admins("ERROR: Possession Holder was generated without a stored item defaulting to Ballin Cirno.")
+		_stored_item = new /obj/item/toy/plush/shitoko/sombrero(src)
+		message_admins("ERROR: Possession Holder was generated without a stored item defaulting to Beachside Shitoko.")
 
 	stored_item = _stored_item
 

@@ -834,9 +834,9 @@
 	result = /obj/item/food/sosjerky/healthy
 	category = CAT_MEAT
 
-/datum/crafting_recipe/food/drying/no_raisin/healthy
+/datum/crafting_recipe/food/drying/rncaisins/healthy
 	reqs = list(/obj/item/food/grown/grapes = 1)
-	result = /obj/item/food/no_raisin/healthy
+	result = /obj/item/food/rncaisins/healthy
 
 /datum/crafting_recipe/food/drying/semki
 	reqs = list(/obj/item/food/grown/sunflower = 1)

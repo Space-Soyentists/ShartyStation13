@@ -5144,7 +5144,7 @@
 	pixel_y = 2;
 	pixel_x = 10
 	},
-/obj/item/food/peanuts/random{
+/obj/item/food/mnampms/random{
 	pixel_y = -4;
 	pixel_x = 4
 	},
@@ -34178,9 +34178,7 @@
 /area/station/science/ordnance/storage)
 "kcG" = (
 /obj/structure/lattice,
-/obj/item/toy/plush/cirno_plush/ballin{
-	icon_state = "cirno-contained"
-	},
+/obj/item/toy/plush/shitoko/sombrero,
 /turf/open/space/basic,
 /area/space/nearstation)
 "kcK" = (
@@ -73605,7 +73603,7 @@
 /turf/open/floor/carpet/royalblue,
 /area/station/medical/break_room)
 "vrt" = (
-/obj/item/trash/peanuts{
+/obj/item/trash/mnampms{
 	pixel_x = 8
 	},
 /obj/structure/chair{

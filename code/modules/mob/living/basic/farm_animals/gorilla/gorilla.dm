@@ -42,7 +42,7 @@
 	var/static/list/gorilla_food = list(
 		/obj/item/food/bread/banana,
 		/obj/item/food/breadslice/banana,
-		/obj/item/food/cnds/banana_honk,
+		/obj/item/food/dnbs/banana,
 		/obj/item/food/grown/banana,
 		/obj/item/food/salad/fruit,
 		/obj/item/food/salad/jungle,

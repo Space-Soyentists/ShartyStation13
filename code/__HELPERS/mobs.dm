@@ -271,7 +271,6 @@ GLOBAL_LIST_INIT(skin_tones, sort_list(list(
 	"african1",
 	"african2",
 	"soyjak",
-	"frog",
 	"giga",
 	"simpson"
 	)))
@@ -286,7 +285,6 @@ GLOBAL_LIST_INIT(skin_tone_names, list(
 	"caucasian1" = "Porcelain",
 	"caucasian2" = "Light peach",
 	"caucasian3" = "Peach",
-	"frog" = "Frog",
 	"giga" = "Gigachad",
 	"indian" = "Brown",
 	"latino" = "Light beige",

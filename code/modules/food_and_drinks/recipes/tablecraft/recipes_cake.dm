@@ -233,7 +233,7 @@
 	name = "english fruitcake"
 	reqs = list(
 		/obj/item/food/cake/plain = 1,
-		/obj/item/food/no_raisin = 1,
+		/obj/item/food/rncaisins = 1,
 		/obj/item/food/grown/cherries = 1,
 		/datum/reagent/consumable/ethanol/rum = 5
 	)

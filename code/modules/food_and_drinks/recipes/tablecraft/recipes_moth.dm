@@ -32,9 +32,9 @@
 	name = "Engine fodder"
 	reqs = list(
 		/obj/item/food/toasted_seeds = 1,
-		/obj/item/food/cnds = 1,
+		/obj/item/food/dnbs = 1,
 		/obj/item/food/popcorn = 1,
-		/obj/item/food/peanuts = 1,
+		/obj/item/food/mnampms = 1,
 		/obj/item/food/chips = 1
 	)
 	result = /obj/item/food/engine_fodder

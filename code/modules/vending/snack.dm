@@ -15,11 +15,11 @@
 		/obj/item/food/sosjerky = 6,
 		/obj/item/food/cornchips/random = 6,
 		/obj/item/food/sosjerky = 6,
-		/obj/item/food/no_raisin = 6,
-		/obj/item/food/peanuts = 6,
-		/obj/item/food/peanuts/random = 3,
-		/obj/item/food/cnds = 6,
-		/obj/item/food/cnds/random = 3,
+		/obj/item/food/rncaisins = 6,
+		/obj/item/food/mnampms = 6,
+		/obj/item/food/mnampms/random = 3,
+		/obj/item/food/dnbs = 6,
+		/obj/item/food/dnbs/random = 3,
 		/obj/item/food/semki = 6,
 		/obj/item/reagent_containers/cup/glass/dry_ramen = 3,
 		/obj/item/storage/box/gum = 3,
@@ -32,7 +32,7 @@
 	)
 	contraband = list(
 		/obj/item/food/syndicake = 6,
-		/obj/item/food/peanuts/ban_appeal = 3,
+		/obj/item/food/mnampms/branigger_appeal = 3,
 		/obj/item/food/candy/bronx = 1,
 	)
 	premium = list(

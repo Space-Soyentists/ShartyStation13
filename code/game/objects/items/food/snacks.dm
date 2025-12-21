@@ -135,23 +135,23 @@
 	foodtypes = JUNKFOOD | FRIED | SEAFOOD
 	w_class = WEIGHT_CLASS_SMALL
 
-/obj/item/food/no_raisin
-	name = "\improper 4no raisins"
-	icon_state = "4no_raisins"
-	desc = "Best raisins in the universe. Not sure why."
+/obj/item/food/rncaisins
+	name = "\improper RNCAisins"
+	icon_state = "rncaisins"
+	desc = "Raisins nobody cares about. Not sure why. A thrembo is printed on the box."
 	trash_type = /obj/item/trash/raisins
 	food_reagents = list(
-		/datum/reagent/consumable/nutriment = 2,
+		/datum/reagent/consumable/nutriment = 3,
 		/datum/reagent/consumable/sugar = 4,
 	)
 	junkiness = 25
 	tastes = list("dried raisins" = 1)
 	foodtypes = JUNKFOOD | FRUIT | SUGAR
 	food_flags = FOOD_FINGER_FOOD
-	custom_price = PAYCHECK_CREW * 0.7
+	custom_price = PAYCHECK_CREW * 0.8
 	w_class = WEIGHT_CLASS_SMALL
 
-/obj/item/food/no_raisin/healthy
+/obj/item/food/rncaisins/healthy
 	name = "homemade raisins"
 	desc = "Homemade raisins, the best in all of spess."
 	food_reagents = list(
@@ -236,85 +236,116 @@
 	food_flags = FOOD_FINGER_FOOD
 	w_class = WEIGHT_CLASS_SMALL
 
-/obj/item/food/peanuts
-	name = "\improper Gallery's peanuts"
-	desc = "A favourite amongst the terminally angry."
-	icon_state = "peanuts"
-	trash_type = /obj/item/trash/peanuts
-	food_reagents = list(/datum/reagent/consumable/nutriment = 2)
-	tastes = list("peanuts" = 4, "anger" = 1)
-	foodtypes = JUNKFOOD | NUTS
-	custom_price = PAYCHECK_CREW * 0.8 //nuts are expensive in real life, and this is the best food in the vendor.
-	junkiness = 10 //less junky than other options, since peanuts are a decently healthy snack option
+/obj/item/food/mnampms
+	name = "\improper M&amp;Ms"
+	desc = "M&amp;Ms melt in your mouth, not in your hand."
+	icon_state = "mnampms"
+	trash_type = /obj/item/trash/mnampms
+	food_reagents = list(
+		/datum/reagent/consumable/sugar = 2,
+		/datum/reagent/consumable/coco = 1
+	)
+	tastes = list("chocolate candy" = 3)
+	foodtypes = JUNKFOOD | SUGAR
+	junkiness = 25
 	w_class = WEIGHT_CLASS_SMALL
-	grind_results = list(/datum/reagent/consumable/peanut_butter = 5, /datum/reagent/consumable/cooking_oil = 2)
 	var/safe_for_consumption = TRUE
 
-/obj/item/food/peanuts/salted
-	name = "\improper Gallery's salt reserves peanuts"
-	desc = "Tastes salty."
-	food_reagents = list(
-		/datum/reagent/consumable/nutriment = 2,
-		/datum/reagent/consumable/salt = 1,
-	)
-	tastes = list("peanuts" = 3, "salt" = 1, "high blood pressure" = 1)
+/obj/item/food/mnampms/suicide_act(mob/living/user)
+	user.visible_message(span_suicide("[user] is letting [src] melt in [user.p_their()] hand! It looks like [user.p_theyre()] trying to commit suicide!"))
+	return TOXLOSS
 
-/obj/item/food/peanuts/wasabi
-	name = "\improper Gallery's raging wasabi peanuts"
-	desc = "The angriest of all peanut flavours."
+/obj/item/food/mnampms/peanut_butter
+	name = "peanut butter M&amp;Ms"
+	desc = "Beloved by cacas and aliens alike."
 	food_reagents = list(
-		/datum/reagent/consumable/nutriment = 2,
-		/datum/reagent/consumable/capsaicin = 1,
+		/datum/reagent/consumable/sugar = 2,
+		/datum/reagent/consumable/coco = 1,
+		/datum/reagent/consumable/peanut_butter = 1,
 	)
-	tastes = list("peanuts" = 3, "wasabi" = 1, "rage" = 1)
+	tastes = list("chocolate candy" = 2, "peanut butter" = 1)
 
-/obj/item/food/peanuts/honey_roasted
-	name = "\improper Gallery's delete sweet peanuts"
-	desc = "Oddly bitter for a sweet treat."
+/obj/item/food/mnampms/salted_caramel
+	name = "salted caramel M&amp;Ms"
+	desc = "Tastes sweet and salty."
 	food_reagents = list(
-		/datum/reagent/consumable/nutriment = 2,
-		/datum/reagent/consumable/sugar = 1,
+		/datum/reagent/consumable/sugar = 2,
+		/datum/reagent/consumable/coco = 1,
+		/datum/reagent/consumable/caramel = 1,
+		/datum/reagent/consumable/salt = 1
 	)
-	tastes = list("peanuts" = 3, "honey" = 1, "bitterness" = 1)
+	tastes = list("chocolate candy" = 2, "salted caramel" = 1)
 
-/obj/item/food/peanuts/barbecue
-	name = "\improper Gallery's IDEDBBQ peanuts"
-	desc = "Where there's smoke, there's not necessarily fire- sometimes it's just BBQ sauce."
+/obj/item/food/mnampms/soylent
+	name = "\improper Soylent M&amp;Ms"
+	desc = "The gemmiest of all M&amp;M flavors."
 	food_reagents = list(
-		/datum/reagent/consumable/nutriment = 2,
-		/datum/reagent/consumable/bbqsauce = 1,
+		/datum/reagent/consumable/sugar = 2,
+		/datum/reagent/consumable/coco = 1,
+		/datum/reagent/consumable/soylent = 1
 	)
-	tastes = list("peanuts" = 3, "bbq sauce" = 1, "arguments" = 1)
+	tastes = list("chocolate candy" = 2, "cereal milk" = 1)
 
-/obj/item/food/peanuts/ban_appeal
-	name = "\improper Gallery's peanuts Ban Appel mix"
-	desc = "An ill-fated attempt at trail mix, banned in 6 sectors. Yearly lobbying to overturn is denied not because the apples are toxic, but because they keep evading the ban."
+/obj/item/food/mnampms/banana_honk
+	name = "banana honk M&amp;Ms"
+	desc = "The official candy of clowns everywhere. Honk honk!"
 	food_reagents = list(
-		/datum/reagent/consumable/nutriment = 2,
-		/datum/reagent/toxin/cyanide = 1,
-	) //uses dried poison apples
-	tastes = list("peanuts" = 3, "apples" = 1, "regret" = 1)
+		/datum/reagent/consumable/sugar = 2,
+		/datum/reagent/consumable/coco = 1,
+		/datum/reagent/consumable/banana = 1
+	)
+	tastes = list("chocolate candy" = 2, "banana" = 1)
+
+/obj/item/food/mnampms/honey_roasted
+	name = "honey roasted M&amp;Ms"
+	desc = "Excessively sweet treat."
+	food_reagents = list(
+		/datum/reagent/consumable/sugar = 2,
+		/datum/reagent/consumable/coco = 1,
+		/datum/reagent/consumable/honey = 1
+	)
+	tastes = list("chocolate candy" = 2, "honey" = 1)
+
+/obj/item/food/mnampms/barbecue
+	name = "bbq sauce M&amp;Ms"
+	desc = "Where there's BBQ sauce, there's not necessarily a manager - sometimes it's just smokey sauce."
+	food_reagents = list(
+		/datum/reagent/consumable/sugar = 2,
+		/datum/reagent/consumable/coco = 1,
+		/datum/reagent/consumable/bbqsauce = 1
+	)
+	tastes = list("chocolate candy" = 2, "bbq sauce" = 1, "managerial duties" = 1)
+
+/obj/item/food/mnampms/branigger_appeal
+	name = "\improper Branigger's Appeal M&amp;Ms"
+	desc = "An ill-fated attempt at a Branigger Requests cereal flavor, banned in 6 sectors. Yearly lobbying to overturn is denied not because the third world cuisine is toxic, but because they keep evading the ban."
+	food_reagents = list(
+		/datum/reagent/consumable/sugar = 2,
+		/datum/reagent/consumable/coco = 1,
+		/datum/reagent/toxin/bad_food = 1,
+	)
+	tastes = list("chocolate candy" = 2, "third world \"cuisine\"" = 1, "regret" = 1)
 	safe_for_consumption = FALSE
 
-/obj/item/food/peanuts/random
-	name = "\improper Gallery's every-flavour peanuts"
-	desc = "What flavour will you get?"
-	icon_state = "peanuts"
+/obj/item/food/mnampms/random
+	name = "mystery-flavor M&amp;Ms"
+	desc = "What flavor will you get?"
+	icon_state = "mnampms"
 	safe_for_consumption = FALSE
 
-GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
+GLOBAL_LIST_INIT(safe_mnampm_types, populate_safe_mnampm_types())
 
-/proc/populate_safe_peanut_types()
+/proc/populate_safe_mnampm_types()
 	. = list()
-	for(var/obj/item/food/peanuts/peanut_type as anything in subtypesof(/obj/item/food/peanuts))
-		if(!initial(peanut_type.safe_for_consumption))
+	for(var/obj/item/food/mnampms/mnampm_type as anything in subtypesof(/obj/item/food/mnampms))
+		if(!initial(mnampm_type.safe_for_consumption))
 			continue
-		. += peanut_type
+		. += mnampm_type
 
-/obj/item/food/peanuts/random/Initialize(mapload)
-	// Generate a sample p
-	var/peanut_type = pick(GLOB.safe_peanut_types)
-	var/obj/item/food/sample = new peanut_type(loc)
+/obj/item/food/mnampms/random/Initialize(mapload)
+	// lazily renamed from the peanut code award
+	var/mnampm_type = pick(GLOB.safe_mnampm_types)
+	var/obj/item/food/sample = new mnampm_type(loc)
 
 	name = sample.name
 	desc = sample.desc
@@ -325,72 +356,74 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 
 	. = ..()
 
-/obj/item/food/cnds
-	name = "\improper C&Ds"
-	desc = "Legally, we cannot say that these won't melt in your hands."
-	icon_state = "cnds"
-	trash_type = /obj/item/trash/cnds
+/obj/item/food/dnbs
+	name = "\improper D&Bs"
+	desc = "Dan and Barry's classic chocolate-coated strawberry jam snack."
+	icon_state = "dnbs"
+	trash_type = /obj/item/trash/dnbs
 	food_reagents = list(
-		/datum/reagent/consumable/sugar = 3,
-		/datum/reagent/consumable/coco = 1,
+		/datum/reagent/consumable/coco = 2,
+		/datum/reagent/consumable/berryjuice = 1
 	)
-	tastes = list("chocolate candy" = 3)
+	tastes = list("chocolate" = 2, "strawberry jam" = 1)
 	junkiness = 25
 	foodtypes = JUNKFOOD
 	w_class = WEIGHT_CLASS_SMALL
 
-/obj/item/food/cnds/suicide_act(mob/living/user)
-	user.visible_message(span_suicide("[user] is letting [src] melt in [user.p_their()] hand! It looks like [user.p_theyre()] trying to commit suicide!"))
-	return TOXLOSS
-
-/obj/item/food/cnds/caramel
-	name = "caramel C&Ds"
-	desc = "Stuffed with sugary sweet caramel, making them a diabetic's worst nightmare."
+/obj/item/food/dnbs/peanut_butter
+	name = "peanut butter D&Bs"
+	desc = "Loaded with peanut butter goodness."
 	food_reagents = list(
-		/datum/reagent/consumable/sugar = 2,
-		/datum/reagent/consumable/coco = 1,
-		/datum/reagent/consumable/caramel = 1,
+		/datum/reagent/consumable/coco = 2,
+		/datum/reagent/consumable/peanut_butter = 1
 	)
-	tastes = list("chocolate candy" = 2, "caramel" = 1)
+	tastes = list("chocolate" = 2, "peanut butter" = 1)
 
-/obj/item/food/cnds/pretzel
-	name = "pretzel C&Ds"
-	desc = "Eine köstliche Begleitung zu Ihrem Lieblingsbier."
+/obj/item/food/dnbs/cherry
+	name = "cherry D&Bs"
+	desc = "Now filled with lots of cherry jam!"
 	food_reagents = list(
-		/datum/reagent/consumable/sugar = 2,
-		/datum/reagent/consumable/nutriment = 1,
-		/datum/reagent/consumable/coco = 1,
+		/datum/reagent/consumable/coco = 2,
+		/datum/reagent/consumable/cherryjelly = 1
 	)
-	tastes = list("chocolate candy" = 2, "pretzel" = 1)
-	foodtypes = JUNKFOOD | GRAIN
+	tastes = list("chocolate" = 2, "cherry jam" = 1)
 
-/obj/item/food/cnds/peanut_butter
-	name = "peanut butter C&Ds"
-	desc = "Beloved by small children and aliens alike."
+/obj/item/food/dnbs/banana
+	name = "banana honk D&Bs"
+	desc = "Contains soft and laugh-inducing banana honk cream."
 	food_reagents = list(
-		/datum/reagent/consumable/sugar = 2,
-		/datum/reagent/consumable/coco = 1,
-		/datum/reagent/consumable/peanut_butter = 1,
-	)
-	tastes = list("chocolate candy" = 2, "peanut butter" = 1)
-
-/obj/item/food/cnds/banana_honk
-	name = "banana honk C&Ds"
-	desc = "The official candy of clowns everywhere. Honk honk!"
-	food_reagents = list(
-		/datum/reagent/consumable/sugar = 2,
-		/datum/reagent/consumable/coco = 1,
+		/datum/reagent/consumable/coco = 2,
 		/datum/reagent/consumable/banana = 1,
+		/datum/reagent/consumable/laughter = 4
 	)
-	tastes = list("chocolate candy" = 2, "banana" = 1)
+	tastes = list("laughter" = 4, "chocolate" = 2, "banana" = 1)
 
-/obj/item/food/cnds/random
-	name = "mystery filled C&Ds"
-	desc = "Filled with one of four delicious flavours!"
+/obj/item/food/dnbs/frosty_mint
+	name = "frosty mint D&Bs"
+	desc = "An extra minty take on the classic treat."
+	food_reagents = list(
+		/datum/reagent/consumable/coco = 2,
+		/datum/reagent/consumable/menthol = 1,
+		/datum/reagent/consumable/frostoil = 1
+	)
+	tastes = list("chocolate" = 2, "burning mint" = 1)
 
-/obj/item/food/cnds/random/Initialize(mapload)
-	var/random_flavour = pick(subtypesof(/obj/item/food/cnds) - /obj/item/food/cnds/random)
-	var/obj/item/food/sample = new random_flavour(loc)
+/obj/item/food/dnbs/spicy
+	name = "hot sauce D&Bs"
+	desc = "A bizzare version of D&Bs filled with hot sauce."
+	food_reagents = list(
+		/datum/reagent/consumable/coco = 2,
+		/datum/reagent/consumable/capsaicin = 1
+	)
+	tastes = list("chocolate" = 2, "hot sauce" = 1)
+
+/obj/item/food/dnbs/random
+	name = "mystery filled D&Bs"
+	desc = "Filled with one of six delicious flavors!"
+
+/obj/item/food/dnbs/random/Initialize(mapload)
+	var/random_flavor = pick(subtypesof(/obj/item/food/dnbs) - /obj/item/food/dnbs/random)
+	var/obj/item/food/sample = new random_flavor(loc)
 	name = sample.name
 	desc = sample.desc
 	food_reagents = sample.food_reagents
@@ -402,7 +435,7 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 
 /obj/item/food/pistachios
 	name = "\improper Sweetie's Pistachios"
-	desc = "A pack of Sweetie's brand premium pistacios."
+	desc = "A pack of Sweetie's brand premium pistachios."
 	icon_state = "pistachio"
 	trash_type = /obj/item/trash/pistachios
 	food_reagents = list(
@@ -509,7 +542,7 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 
 /obj/item/food/cornchips/purple
 	name = "\improper Spicy Sweet Chili Boritos corn chips"
-	desc = "The only flavour that actually tastes spicy like proper nachos."
+	desc = "The only flavor that actually tastes spicy like proper nachos."
 	icon_state = "boritospurple"
 	trash_type = /obj/item/trash/boritos/purple
 	food_reagents = list(
@@ -523,12 +556,12 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 
 /obj/item/food/cornchips/random
 	name = "\improper Boritos cornchips"
-	desc = "Filled with one of four delicious flavours!"
+	desc = "Filled with one of four delicious flavors!"
 
 /obj/item/food/cornchips/random/Initialize(mapload)
-	var/random_flavour = pick(subtypesof(/obj/item/food/cornchips) - /obj/item/food/cornchips/random)
+	var/random_flavor = pick(subtypesof(/obj/item/food/cornchips) - /obj/item/food/cornchips/random)
 
-	var/obj/item/food/sample = new random_flavour(loc)
+	var/obj/item/food/sample = new random_flavor(loc)
 
 	name = sample.name
 	desc = sample.desc
@@ -558,7 +591,7 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 
 /obj/item/food/sticko
 	name = "\improper Sticko Classic"
-	desc = "A classic treat for all ages, it's Sticko, the original chocolate-coated biscuit stick! This one's the original (and as some would say, best) flavour: biscuit and milk chocolate."
+	desc = "A classic treat for all ages, it's Sticko, the original chocolate-coated biscuit stick! This one's the original (and as some would say, best) flavor: biscuit and milk chocolate."
 	icon_state = "sticko_classic"
 	trash_type = /obj/item/trash/sticko
 	food_reagents = list(
@@ -572,7 +605,7 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 
 /obj/item/food/sticko/matcha
 	name = "\improper Sticko Matcha"
-	desc = "A classic treat for all ages, it's Sticko, the original chocolate-coated biscuit stick! This one's got matcha flavoured white chocolate as its coating, to evoke feelings of tradition."
+	desc = "A classic treat for all ages, it's Sticko, the original chocolate-coated biscuit stick! This one's got matcha flavored white chocolate as its coating, to evoke feelings of tradition."
 	icon_state = "sticko_matcha"
 	trash_type = /obj/item/trash/sticko/matcha
 	food_reagents = list(
@@ -584,7 +617,7 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 
 /obj/item/food/sticko/nutty
 	name = "\improper Sticko Nutty"
-	desc = "A classic treat for all ages, it's Sticko, the original chocolate-coated biscuit stick! This one's got peanut-butter flavoured chocolate as its coating, for a nutty twist."
+	desc = "A classic treat for all ages, it's Sticko, the original chocolate-coated biscuit stick! This one's got peanut-butter flavored chocolate as its coating, for a nutty twist."
 	icon_state = "sticko_nutty"
 	trash_type = /obj/item/trash/sticko/nutty
 	food_reagents = list(
@@ -597,7 +630,7 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 
 /obj/item/food/sticko/pineapple
 	name = "\improper Sticko Pineapple"
-	desc = "A classic treat for all ages, it's Sticko, the original chocolate-coated biscuit stick! This one's got pineapple flavoured white chocolate as its coating, for those ananas fan-as."
+	desc = "A classic treat for all ages, it's Sticko, the original chocolate-coated biscuit stick! This one's got pineapple flavored white chocolate as its coating, for those ananas fan-as."
 	icon_state = "sticko_pineapple"
 	trash_type = /obj/item/trash/sticko/pineapple
 	food_reagents = list(
@@ -610,7 +643,7 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 
 /obj/item/food/sticko/yuyake
 	name = "\improper Sticko Yūyake"
-	desc = "A classic treat for all ages, it's Sticko, the original chocolate-coated biscuit stick! This one's got Yūyake flavoured white chocolate as its coating, for a refreshing melony treat."
+	desc = "A classic treat for all ages, it's Sticko, the original chocolate-coated biscuit stick! This one's got Yūyake flavored white chocolate as its coating, for a refreshing melony treat."
 	icon_state = "sticko_yuyake"
 	trash_type = /obj/item/trash/sticko/yuyake
 	food_reagents = list(
@@ -622,11 +655,11 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 
 /obj/item/food/sticko/random
 	name = "\improper Sticko Mystery"
-	desc = "A classic treat for all ages, it's Sticko, the original chocolate-coated biscuit stick! This one's got an obscuring paper sheath, to hide the true flavour..."
+	desc = "A classic treat for all ages, it's Sticko, the original chocolate-coated biscuit stick! This one's got an obscuring paper sheath, to hide the true flavor..."
 
 /obj/item/food/sticko/random/Initialize(mapload)
-	var/random_flavour = pick(subtypesof(/obj/item/food/sticko) - /obj/item/food/sticko/random)
-	var/obj/item/food/sample = new random_flavour(loc)
+	var/random_flavor = pick(subtypesof(/obj/item/food/sticko) - /obj/item/food/sticko/random)
+	var/obj/item/food/sample = new random_flavor(loc)
 	name = sample.name
 	desc = sample.desc
 	food_reagents = sample.food_reagents
@@ -637,8 +670,8 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 	. = ..()
 
 /obj/item/food/shok_roks
-	name = "\improper Shok-Roks - Stormcloud Candy flavour"
-	desc = "You've heard of Snap-Roks, now get ready for Shok-Roks: the popping candy for Ethereals! Available in 5 exciting flavours, of which this bag contains Stormcloud Candy- like cotton candy, but electric!"
+	name = "\improper Shok-Roks - Stormcloud Candy flavor"
+	desc = "You've heard of Snap-Roks, now get ready for Shok-Roks: the popping candy for Ethereals! Available in 5 exciting flavors, of which this bag contains Stormcloud Candy- like cotton candy, but electric!"
 	icon_state = "shok_roks_candy"
 	trash_type = /obj/item/trash/shok_roks
 	food_reagents = list(
@@ -648,40 +681,40 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 	tastes = list("sugar" = 1, "lightning" = 1)
 
 /obj/item/food/shok_roks/citrus
-	name = "\improper Shok-Roks - Cirrus Citrus flavour"
-	desc = "You've heard of Snap-Roks, now get ready for Shok-Roks: the popping candy for Ethereals! Available in 5 exciting flavours, of which this bag contains Cirrus Citrus- all the citrus flavour, none of the real citrus extract."
+	name = "\improper Shok-Roks - Cirrus Citrus flavor"
+	desc = "You've heard of Snap-Roks, now get ready for Shok-Roks: the popping candy for Ethereals! Available in 5 exciting flavors, of which this bag contains Cirrus Citrus- all the citrus flavor, none of the real citrus extract."
 	icon_state = "shok_roks_citrus"
 	trash_type = /obj/item/trash/shok_roks/citrus
 	tastes = list("citrus" = 1, "lightning" = 1)
 
 /obj/item/food/shok_roks/berry
-	name = "\improper Shok-Roks - Berry Storm flavour"
-	desc = "You've heard of Snap-Roks, now get ready for Shok-Roks: the popping candy for Ethereals! Available in 5 exciting flavours, of which this bag contains Berry Storm- filled with non-descript sour berry flavour!"
+	name = "\improper Shok-Roks - Berry Storm flavor"
+	desc = "You've heard of Snap-Roks, now get ready for Shok-Roks: the popping candy for Ethereals! Available in 5 exciting flavors, of which this bag contains Berry Storm- filled with non-descript sour berry flavor!"
 	icon_state = "shok_roks_berry"
 	trash_type = /obj/item/trash/shok_roks/berry
 	tastes = list("sour berry" = 1, "lightning" = 1)
 
 /obj/item/food/shok_roks/tropical
-	name = "\improper Shok-Roks - Tropical Thunder flavour"
-	desc = "You've heard of Snap-Roks, now get ready for Shok-Roks: the popping candy for Ethereals! Available in 5 exciting flavours, of which this bag contains Tropical Thunder- all the tropical fruits! ALL OF THEM!"
+	name = "\improper Shok-Roks - Tropical Thunder flavor"
+	desc = "You've heard of Snap-Roks, now get ready for Shok-Roks: the popping candy for Ethereals! Available in 5 exciting flavors, of which this bag contains Tropical Thunder- all the tropical fruits! ALL OF THEM!"
 	icon_state = "shok_roks_tropical"
 	trash_type = /obj/item/trash/shok_roks/tropical
 	tastes = list("tropical fruits" = 1, "lightning" = 1)
 
 /obj/item/food/shok_roks/lanternfruit
-	name = "\improper Shok-Roks - Lightning Lanternfruit flavour"
-	desc = "You've heard of Snap-Roks, now get ready for Shok-Roks: the popping candy for Ethereals! Available in 5 exciting flavours, of which this bag contains Lightning Lanternfruit- the only Sprout-native fruit in any Shok-Rok flavour."
+	name = "\improper Shok-Roks - Lightning Lanternfruit flavor"
+	desc = "You've heard of Snap-Roks, now get ready for Shok-Roks: the popping candy for Ethereals! Available in 5 exciting flavors, of which this bag contains Lightning Lanternfruit- the only Sprout-native fruit in any Shok-Rok flavor."
 	icon_state = "shok_roks_lanternfruit"
 	trash_type = /obj/item/trash/shok_roks/lanternfruit
 	tastes = list("sour pear" = 1, "lightning" = 1)
 
 /obj/item/food/shok_roks/random
-	name = "\improper Shok-Roks - Hidden Hurricane flavour"
-	desc = "You've heard of Snap-Roks, now get ready for Shok-Roks: the popping candy for Ethereals! Available in 5 exciting flavours, any of which could be in this bag!"
+	name = "\improper Shok-Roks - Hidden Hurricane flavor"
+	desc = "You've heard of Snap-Roks, now get ready for Shok-Roks: the popping candy for Ethereals! Available in 5 exciting flavors, any of which could be in this bag!"
 
 /obj/item/food/shok_roks/random/Initialize(mapload)
-	var/random_flavour = pick(subtypesof(/obj/item/food/shok_roks) - /obj/item/food/shok_roks/random)
-	var/obj/item/food/sample = new random_flavour(loc)
+	var/random_flavor = pick(subtypesof(/obj/item/food/shok_roks) - /obj/item/food/shok_roks/random)
+	var/obj/item/food/sample = new random_flavor(loc)
 	name = sample.name
 	desc = sample.desc
 	food_reagents = sample.food_reagents

@@ -140,7 +140,7 @@
 	name = "grim tidings"
 	desc = "Incoming leaper!"
 	icon = 'icons/effects/96x96.dmi'
-	icon_state = "lily_pad"
+	icon_state = "leaper_rune"
 	layer = BELOW_MOB_LAYER
 	plane = GAME_PLANE
 	SET_BASE_PIXEL(-32, -32)

@@ -316,10 +316,10 @@
 /area/station/service/bar)
 "rZ" = (
 /obj/structure/chair/bronze,
-/obj/item/toy/plush/cirno_plush/ballin{
-	name = "Operative Cirno";
-	attack_verb_simple = list("robust","chop","nuke");
-	attack_verb_continuous = list("robusts","chops","nukes")
+/obj/item/toy/plush/shitoko/sombrero{
+	name = "Operative Satoko";
+	attack_verb_simple = list("robrapst", "braps", "brapnuke");
+	attack_verb_continuous = list("robrapsts", "braps", "brapnukes")
 	},
 /turf/open/floor/iron/dark,
 /area/station/commons/lounge)

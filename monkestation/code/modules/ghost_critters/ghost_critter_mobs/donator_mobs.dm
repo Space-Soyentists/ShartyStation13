@@ -3,7 +3,6 @@
 /client/proc/return_donator_mobs()
 	var/list/mobs = list(
 		/mob/living/basic/pet/gumball_goblin,
-		/mob/living/basic/pet/cirno,
 		/mob/living/basic/pet/blahaj,
 		/mob/living/basic/crab/spycrab,
 		/mob/living/basic/mothroach/void,
