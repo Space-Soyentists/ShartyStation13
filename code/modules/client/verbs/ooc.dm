@@ -106,9 +106,14 @@ GLOBAL_VAR_INIT(normal_ooc_colour, "#002eb8")
 		if("^")
 			msg = "<font color='#4c4cff'>[msg]</font>"
 
-// handle wordfilter
-	msg = word_filter_text(msg)
-
+// SoyBooru embeds
+	var/regex/booru_parser = new(@"(?<=\[thumb\])\d+(?=\[\/thumb\])")
+	booru_parser.Find(msg)
+	var/booru_id = booru_parser.match
+	if (booru_id)
+		msg = replacetext(msg, "[booru_id]", "")
+		msg = replacetext(msg, @"[thumb]", "<img src='https://soybooru.com/thumb/[booru_id].jpeg'>")
+		msg = replacetext(msg, @"[/thumb]", "</img>")
 
 	var/keyname = key
 	if(!!IsByondMember())
