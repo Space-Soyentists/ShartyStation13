@@ -106,6 +106,10 @@ GLOBAL_VAR_INIT(normal_ooc_colour, "#002eb8")
 		if("^")
 			msg = "<font color='#4c4cff'>[msg]</font>"
 
+// handle wordfilter
+	msg = word_filter_text(msg)
+
+
 	var/keyname = key
 	if(!!IsByondMember())
 		if(prefs.toggles & MEMBER_PUBLIC)
