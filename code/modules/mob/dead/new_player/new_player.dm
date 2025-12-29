@@ -152,8 +152,11 @@
 	return JOB_AVAILABLE
 
 /mob/dead/new_player/proc/AttemptLateSpawn(rank)
-// Check that they're picking someone new for new character respawning (broken, fix later?)
+// Check that they're picking someone new for new character respawning (broken, fix later?) <--- moron said it was broken
 	if(CONFIG_GET(flag/allow_respawn) == RESPAWN_FLAG_NEW_CHARACTER)
+		if("[client.prefs.default_slot]" in persistent_client.joined_as_slots)
+			tgui_alert(usr, "You already have played this character in this round!")
+			return FALSE
 
 	if(interview_safety(src, "attempting to latejoin"))
 		qdel(client)
@@ -205,7 +208,13 @@
 	SSjob.EquipRank(character, job, character.client)
 	job.after_latejoin_spawn(character)
 
-	var/datum/persistent_client/persistent_client = character.persistent_client
+    // >redefining persistent_client despite it being in every single /mob
+    // >it breaks something else so they just remove it entirely upstream
+    // monkestation gem
+    // |
+    // | don't be like this guys
+    // v
+	// var/datum/persistent_client/persistent_client = character.persistent_client
 	if(persistent_client)
 		SSchallenges.apply_challenges(persistent_client)
 		for(var/processing_reward_bitflags in SSticker.bitflags_to_reward)//you really should use department bitflags if possible
