@@ -16,7 +16,8 @@ RUN apt-get install -y --no-install-recommends \
         unzip \
         make \
         libstdc++6:i386 \
-        libcurl4:i386
+        libcurl4:i386 \
+        python3
 
 COPY dependencies.sh .
 
@@ -27,6 +28,8 @@ RUN . ./dependencies.sh \
     && sed -i 's|install:|&\n\tmkdir -p $(MAN_DIR)/man6|' Makefile \
     && make install \
     && chmod 644 /usr/local/byond/man/man6/* \
+    && curl -L "https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp" -o /usr/local/bin/yt-dlp \
+    && chmod a+rx /usr/local/bin/yt-dlp \
     && apt-get purge -y --auto-remove curl unzip make \
     && cd .. \
     && rm -rf byond byond.zip
