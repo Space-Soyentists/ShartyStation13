@@ -8811,4 +8811,5 @@
 #include "monkestation\code\modules\wiremod_chem\housing\chemical_circuit.dm"
 #include "monkestation\code\modules\wiremod_chem\housing\precursor_tank.dm"
 #include "monkestation\interface\interface.dm"
+#include "sharty\code\game\objects\items\plushies.dm"
 // END_INCLUDE
