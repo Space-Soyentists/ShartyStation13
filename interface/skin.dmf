@@ -175,7 +175,7 @@ window "infobuttons"
 	elem "infobuttons"
 		type = MAIN
 		pos = 291,0
-		size = 640x30
+		size = 640x40
 		anchor1 = 0,0
 		anchor2 = 100,100
 		saved-params = "pos;size;is-minimized;is-maximized"
@@ -183,7 +183,7 @@ window "infobuttons"
 	elem "changelog"
 		type = BUTTON
 		pos = 0,5
-		size = 76x25
+		size = 76x35
 		anchor1 = 0,0
 		anchor2 = 12,100
 		saved-params = "is-checked"
@@ -192,7 +192,7 @@ window "infobuttons"
 	elem "rules"
 		type = BUTTON
 		pos = 80,5
-		size = 76x25
+		size = 76x35
 		anchor1 = 12,0
 		anchor2 = 24,100
 		saved-params = "is-checked"
@@ -201,7 +201,7 @@ window "infobuttons"
 	elem "wiki"
 		type = BUTTON
 		pos = 160,5
-		size = 76x25
+		size = 76x35
 		anchor1 = 24,0
 		anchor2 = 36,100
 		saved-params = "is-checked"
@@ -210,34 +210,34 @@ window "infobuttons"
 	elem "forum"
 		type = BUTTON
 		pos = 240,5
-		size = 76x25
+		size = 76x35
 		anchor1 = 36,0
 		anchor2 = 48,100
 		saved-params = "is-checked"
-		text = "Forum"
-		command = "forum"
-	elem "github"
+		text = "Imageboard"
+		command = "imageboard"
+	elem "source"
 		type = BUTTON
 		pos = 320,5
-		size = 76x25
+		size = 76x35
 		anchor1 = 48,0
 		anchor2 = 60,100
 		saved-params = "is-checked"
-		text = "GitHub"
-		command = "github"
+		text = "Source"
+		command = "sourcecode"
 	elem "report-issue"
 		type = BUTTON
 		pos = 400,5
-		size = 76x25
+		size = 76x35
 		anchor1 = 60,0
 		anchor2 = 72,100
 		saved-params = "is-checked"
-		text = "Report Bugs"
+		text = "Report Issue"
 		command = "report-issue"
 	elem "fullscreen-toggle"
 		type = BUTTON
 		pos = 480,5
-		size = 76x25
+		size = 76x35
 		anchor1 = 72,0
 		anchor2 = 84,100
 		saved-params = "is-checked"
@@ -246,7 +246,7 @@ window "infobuttons"
 	elem "tickets"
 		type = BUTTON
 		pos = 560,5
-		size = 76x25
+		size = 76x35
 		anchor1 = 84,0
 		anchor2 = 99,100
 		saved-params = "is-checked"

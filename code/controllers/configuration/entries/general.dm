@@ -318,13 +318,16 @@
 	default = "https://soyjakwiki.org/Space_Station_13/List_of_guides"
 
 /datum/config_entry/string/forumurl
-	default = "https://soyjak.st/ss/"
+	default = "https://soyjak.st/"
 
 /datum/config_entry/string/rulesurl
 	default = "https://soyjak.st/ss/thread/1.html#2259"
 
 /datum/config_entry/string/githuburl
-	default = "https://github.com/SnarkySnappySS13/SnarkySnappy"
+	default = "https://gitgud.io/snarkysnappyss13/ShartyStation13"
+
+/datum/config_entry/string/issueurl
+	default = "https://gitgud.io/snarkysnappyss13/ShartyStation13/-/issues"
 
 /datum/config_entry/string/discordbotcommandprefix
 	default = "?"
