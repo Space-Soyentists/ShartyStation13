@@ -19,17 +19,20 @@ SUBSYSTEM_DEF(title)
 			previous_icon = new(previous_icon)
 	fdel("data/previous_title.dat")
 
-	var/list/provisional_title_screens = flist("[global.config.directory]/title_screens/images/")
+	var/season_directory = ""
+	if (check_holidays(CHRISTMAS))
+		season_directory = "christmas/"
+	var/list/provisional_title_screens = flist("[global.config.directory]/title_screens/images/[season_directory]")
 	var/list/title_screens = list()
 	var/use_rare_screens = prob(1)
 
 	for(var/S in provisional_title_screens)
 		var/list/L = splittext(S,"+")
-		if((L.len == 1 && (L[1] != "exclude" && L[1] != "blank.png")) || (L.len > 1 && ((use_rare_screens && lowertext(L[1]) == "rare") || (lowertext(L[1]) == lowertext(SSmapping.current_map.map_name)))))
+		if((L.len == 1 && (L[1] != "exclude" && L[1] != "blank.png")) || (L.len > 1 && ((use_rare_screens && lowertext(L[1]) == "rare") || (lowertext(L[1]) == lowertext(SSmapping.current_map.map_name)) || !findtext(L, "/"))))
 			title_screens += S
 
 	if(length(title_screens))
-		file_path = "[global.config.directory]/title_screens/images/[pick(title_screens)]"
+		file_path = "[global.config.directory]/title_screens/images/[season_directory][pick(title_screens)]"
 
 	if(!file_path)
 		file_path = "icons/runtime/default_title.dmi"
