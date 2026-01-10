@@ -73,8 +73,8 @@ export const setClientTheme = (name) => {
     'wiki.text-color': themeColor.TEXT,
     'forum.background-color': themeColor.BUTTON,
     'forum.text-color': themeColor.TEXT,
-    'github.background-color': themeColor.BUTTON,
-    'github.text-color': themeColor.TEXT,
+    'source.background-color': themeColor.BUTTON,
+    'source.text-color': themeColor.TEXT,
     'report-issue.background-color': themeColor.BG_REPORT_ISSUES, // monkestation edit: make "Report Bugs" button red
     'report-issue.text-color': themeColor.TEXT,
     'fullscreen-toggle.background-color': themeColor.BUTTON,
