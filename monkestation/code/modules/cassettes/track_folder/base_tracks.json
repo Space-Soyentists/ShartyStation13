@@ -1090,6 +1090,16 @@
 	"genre": "Folk and Indie"
 	},
 	{
+	"url": "https://files.catbox.moe/91kiy2.mp3",
+	"title": "The Wizard",
+	"duration": 1700,
+	"artist": "Chris Remo",
+	"secret": false,
+	"lobby": true,
+	"jukebox": false,
+	"genre": "Folk and Indie"
+	},
+	{
 	"url": "https://files.catbox.moe/yfg6if.m4a",
 	"title": "Far Away",
 	"duration": 2810,
