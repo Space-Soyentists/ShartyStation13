@@ -6,4 +6,6 @@
 
 Lubeoot = Host
 SoyQuote = Host
+Lacrimosamll = Host
 Nusoi = Game Master
+1Crow2Crow3Crow = Game Master
