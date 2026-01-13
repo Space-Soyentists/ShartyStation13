@@ -316,9 +316,9 @@
 	)
 	tastes = list("chocolate candy" = 2, "bbq sauce" = 1, "managerial duties" = 1)
 
-/obj/item/food/mnampms/branigger_appeal
-	name = "\improper Branigger's Appeal M&amp;Ms"
-	desc = "An ill-fated attempt at a Branigger Requests cereal flavor, banned in 6 sectors. Yearly lobbying to overturn is denied not because the third world cuisine is toxic, but because they keep evading the ban."
+/obj/item/food/mnampms/groyper_appeal
+	name = "\improper groyper's Appeal M&amp;Ms"
+	desc = "An ill-fated attempt at a groyper Requests cereal flavor, banned in 6 sectors. Yearly lobbying to overturn is denied not because the third world cuisine is toxic, but because they keep evading the ban."
 	food_reagents = list(
 		/datum/reagent/consumable/sugar = 2,
 		/datum/reagent/consumable/coco = 1,

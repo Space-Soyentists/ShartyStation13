@@ -119,13 +119,13 @@
 	result = /obj/item/food/powercrepe
 	category = CAT_MISCFOOD
 
-/datum/crafting_recipe/food/braniggerrequests
-	name = "Branigger Requests Cereal"
+/datum/crafting_recipe/food/groyperrequests
+	name = "groyper Requests Cereal"
 	reqs = list(
 		/obj/item/food/grown/wheat = 1,
 		/obj/item/food/rncaisins = 1,
 	)
-	result = /obj/item/food/braniggerrequests
+	result = /obj/item/food/groyperrequests
 	category = CAT_MISCFOOD
 
 /datum/crafting_recipe/food/ricepudding

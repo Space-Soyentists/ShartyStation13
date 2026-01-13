@@ -193,7 +193,7 @@
 								  /obj/item/storage/box/gum = 2,
 								  /obj/item/food/energybar = 2,
 								  /obj/item/food/syndicake = 2,
-								  /obj/item/food/mnampms/branigger_appeal = 2,
+								  /obj/item/food/mnampms/groyper_appeal = 2,
 								  /obj/item/food/candy/bronx = 1,
 								  /obj/item/food/spacers_sidekick = 2,
 								  /obj/item/food/pistachios = 2,

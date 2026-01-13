@@ -213,7 +213,7 @@
 		/obj/item/food/dnbs/random = 3,
 		/obj/item/storage/box/gum = 3,
 		/obj/item/food/syndicake = 1,
-		/obj/item/food/mnampms/branigger_appeal = 1,
+		/obj/item/food/mnampms/groyper_appeal = 1,
 		/obj/item/food/pistachios = 1,
 		/obj/item/food/candy/bronx = 1
 	)
