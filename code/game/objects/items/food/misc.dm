@@ -213,10 +213,10 @@
 	foodtypes = GRAIN | FRUIT | SUGAR
 	food_buffs = STATUS_EFFECT_FOOD_SLIDE
 
-/obj/item/food/braniggerrequests
-	name = "Branigger Requests Cereal"
+/obj/item/food/groyperrequests
+	name = "Groyper Requests Cereal"
 	desc = "A dry cereal that satiates your requests for bran. Tastes uniquely like third world cuisine and salt."
-	icon_state = "branigger_requests"
+	icon_state = "groyper_requests"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 5,
 		/datum/reagent/toxin/bad_food = 3,

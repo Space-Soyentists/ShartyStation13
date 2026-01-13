@@ -177,7 +177,7 @@
 	var/loyalty = 30 //why should another get between us?
 	var/duty = 50 //conquering another's is what I live for
 
-	//we are not faggots
+	//we are not flamboyant persons
 	if(young == TRUE || Kisser.young == TRUE)
 		user.show_message(span_notice("[src] plays tag with [Kisser]."), MSG_VISUAL,
 			span_notice("They're happy."), NONE)

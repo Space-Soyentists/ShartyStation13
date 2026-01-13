@@ -32,7 +32,7 @@
 	)
 	contraband = list(
 		/obj/item/food/syndicake = 6,
-		/obj/item/food/mnampms/branigger_appeal = 3,
+		/obj/item/food/mnampms/groyper_appeal = 3,
 		/obj/item/food/candy/bronx = 1,
 	)
 	premium = list(
