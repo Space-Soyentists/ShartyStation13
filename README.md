@@ -52,7 +52,7 @@ On **2021-01-04** we changed the way to compile the codebase.
 
 ## LICENSE
 
-[![license-badge](https://gitgud.io/SnarkySnappySS13/ShartyStation13/-/raw/master/.gitlab/images/soylicense.png)](https://gitgud.io/SnarkySnappySS13/ShartyStation13/-/raw/master/.gitlab/images/soylicense.png)
+[![license-badge](.github/images/soylicense.png)](.github/images/soylicense.png)
 
 All code after [commit 6c53bfa00a05828640231236c577136d687be508 on 2025-10-14 at 11:14 PM CST](https://github.com/Space-Soyentists/ShartyStation13/commit/2c74e3f1b25c18db04ec6487fadfbc861698103b) is under a modified version of the AGPLV3 license which contains the soyjak.party© license at the top, which states that all further redistributed substantial copies of this software will include ASCII art of a [Soyjak](https://en.wikipedia.org/wiki/Wojak#Soyjak).
 
