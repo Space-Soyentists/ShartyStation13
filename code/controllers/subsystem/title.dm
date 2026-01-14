@@ -23,12 +23,18 @@ SUBSYSTEM_DEF(title)
 	if (check_holidays(CHRISTMAS))
 		season_directory = "christmas/"
 	var/list/provisional_title_screens = flist("[global.config.directory]/title_screens/images/[season_directory]")
+
+	// All directories end in /
+	for (var/path in provisional_title_screens)
+		if (path[length(path)] == "/")
+			provisional_title_screens -= path
+
 	var/list/title_screens = list()
 	var/use_rare_screens = prob(1)
 
 	for(var/S in provisional_title_screens)
 		var/list/L = splittext(S,"+")
-		if((L.len == 1 && (L[1] != "exclude" && L[1] != "blank.png")) || (L.len > 1 && ((use_rare_screens && lowertext(L[1]) == "rare") || (lowertext(L[1]) == lowertext(SSmapping.current_map.map_name)) || !findtext(L, "/"))))
+		if((L.len == 1 && (L[1] != "exclude" && L[1] != "blank.png")) || (L.len > 1 && ((use_rare_screens && lowertext(L[1]) == "rare") || (lowertext(L[1]) == lowertext(SSmapping.current_map.map_name)))))
 			title_screens += S
 
 	if(length(title_screens))
