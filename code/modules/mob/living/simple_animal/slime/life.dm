@@ -381,8 +381,6 @@
 	if (rabid || attacked)
 		newmood = "angry"
 	else if (docile)
-		newmood = ":3"
-	else if (docile)
 		newmood = ":o"
 	else if (Target)
 		newmood = "mischievous"
@@ -391,9 +389,9 @@
 		if (Discipline && SPT_PROB(13, seconds_per_tick))
 			newmood = "pout"
 		else if (SPT_PROB(0.5, seconds_per_tick))
-			newmood = pick("sad", ":3", "pout", ":o")
+			newmood = pick("sad", "pout", ":o")
 
-	if ((current_mood == "sad" || current_mood == ":3" || current_mood == "pout" || current_mood == ":o") && !newmood)
+	if ((current_mood == "sad" || current_mood == "pout" || current_mood == ":o") && !newmood)
 		if(SPT_PROB(50, seconds_per_tick))
 			newmood = current_mood
 
