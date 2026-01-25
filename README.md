@@ -1,27 +1,25 @@
 <img src=".github/images/banner.png">
 
-<img src=".github/images/i-am-pretty-robust.svg">
-
 <a href="https://soylent.com"><img src=".github/images/fueledby.png" height="35" width="148.5"></a>
 <a href="https://jakparty.soy"><img src=".github/images/bviltwith.png" height="35" width="211.5"></a>
 <a href="https://soybooru.com"><img src=".github/images/contains.png" height="35" width="136"></a>
+<img src=".github/images/i-am-pretty-robust.svg">
 
 [![forinfinityandbyond](.github/images/byond-glitch.gif)](https://www.reddit.com/r/SS13/comments/5oplxp/what_is_the_main_problem_with_byond_as_an_engine/dclbu1a)
 
-This code runs [byond://ss13.soyjak.st:8888](byond://ss13.soyjak.st)
+This code runs **byond://ss13.soyjak.st:8888**
 
 
 | Website                 | Link                                           |
 |-------------------------|------------------------------------------------|
 | Website                 | [https://soyjak.st/ss/](https://soyjak.st/ss/) |
-| Code                    | [https://gitgud.io/SnarkySnappySS13/ShartyStation13](https://gitgud.io/SnarkySnappySS13/ShartyStation13) |
-| Code | [https://github.com/Space-Soyentists/ShartyStation13]
+| Code | https://github.com/Space-Soyentists/ShartyStation13 |
 | Wiki                    | [https://wiki.soyjak.st/](https://wiki.soyjak.st/) |
 | Codedocs                | [https://codedocs.tgstation13.org/](https://codedocs.tgstation13.org/) |
 
 This is the codebase for the soicaca-flavored fork of Space Station 13. This repo is keyed off of the Monkestation codebase, this is a custom fork of that repo intended for use on our server, but feel free to host it if you'd like.
 
-Space Station 13 is an open-source tile-based A24 slowburn autistic role-playing video game created in 2003 by Exadv1, originally supposed to be an atmospheric simulator. It is now collectively maintained by its "community" and runs on the shitty freeware game engine BYOND, made sometime in 1996. SS13 dwarfs the other shitty Dragon Ball roleplay games on BYOND by thousands of players, which would have likely died in 2014 if it were not for SS13 singlehandedly keeping the entire platform alive. 
+Space Station 13 is an open-source tile-based A24 slowburn autistic role-playing video game created in 2003 by Exadv1, originally supposed to be an atmospheric simulator. It is now collectively maintained by its community and runs on the shitty freeware game engine BYOND, made sometime in 1996. SS13 dwarfs the other shitty Dragon Ball roleplay games on BYOND by thousands of players, which would have likely died in 2014 if it were not for SS13 singlehandedly keeping the entire platform alive. 
 
 ## DOWNLOADING
 
@@ -31,24 +29,7 @@ Space Station 13 is an open-source tile-based A24 slowburn autistic role-playing
 
 [Maps and Away Missions](.github/guides/MAPS_AND_AWAY_MISSIONS.md)
 
-## nobody gives a single fuck about this part but im keeping it for prosperity
-
-On **2021-01-04** we changed the way to compile the codebase.
-
-**The quick way**. Find `bin/server.cmd` in this folder and double-click it to automatically build and host the server on port 1337.
-
-**The long way**. Find `bin/build.cmd` in this folder, and double-click it to initiate the build. It consists of multiple steps and might take around 1-5 minutes to compile. If it closes, it means it has finished its job. You can then [setup the server](.github/guides/RUNNING_A_SERVER.md) normally by opening `tgstation.dmb` in DreamDaemon.
-
 **Building tgstation in DreamMaker directly is now deprecated and might produce errors**, such as `'tgui.bundle.js': cannot find file`.
-
-**[How to compile in VSCode and other build options](tools/build/README.md).**
-
-## Contributors
-
-[Guides for Contributors](CONTRIBUTING.md)
-
-[/tg/station HACKMD account](https://hackmd.io/@tgstation) - Design documentation here
-
 
 ## LICENSE
 
