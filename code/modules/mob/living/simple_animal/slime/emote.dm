@@ -54,3 +54,7 @@
 /datum/emote/slime/mood/angry
 	key = "moodangry"
 	mood_key = "angry"
+
+/datum/emote/slime/mood/soy
+	key = "moodsoy"
+	mood_key = ":o"
