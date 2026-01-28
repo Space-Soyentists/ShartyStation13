@@ -31248,10 +31248,6 @@
 /area/station/hallway/primary/central/fore)
 "eKa" = (
 /obj/structure/table/glass,
-/obj/item/circular_saw,
-/obj/item/scalpel{
-	pixel_y = 12
-	},
 /obj/item/radio/intercom/directional/east,
 /obj/effect/turf_decal/tile/blue/anticorner/contrasted,
 /turf/open/floor/iron/white,
@@ -34214,18 +34210,6 @@
 /obj/structure/cable,
 /turf/open/floor/plastic,
 /area/station/security/mechbay)
-"hkF" = (
-/obj/item/retractor,
-/obj/item/hemostat,
-/obj/item/cautery,
-/obj/structure/table/glass,
-/obj/machinery/light/directional/east,
-/obj/item/blood_filter,
-/obj/effect/turf_decal/tile/blue/half/contrasted{
-	dir = 4
-	},
-/turf/open/floor/iron/white,
-/area/station/medical/surgery/theatre)
 "hkQ" = (
 /obj/machinery/light/directional/east,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -38603,10 +38587,6 @@
 /area/station/command/heads_quarters/nt_rep)
 "lkA" = (
 /obj/structure/table/glass,
-/obj/item/circular_saw,
-/obj/item/scalpel{
-	pixel_y = 12
-	},
 /obj/item/radio/intercom/directional/east,
 /obj/effect/turf_decal/tile/blue/anticorner/contrasted{
 	dir = 4
@@ -45536,16 +45516,6 @@
 	},
 /turf/open/floor/iron,
 /area/station/cargo/storage)
-"rch" = (
-/obj/structure/table/glass,
-/obj/item/clothing/gloves/latex,
-/obj/item/surgical_drapes,
-/obj/item/stack/medical/bone_gel,
-/obj/effect/turf_decal/tile/blue/half/contrasted{
-	dir = 4
-	},
-/turf/open/floor/iron/white,
-/area/station/medical/surgery/theatre)
 "rcF" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible/layer2,
 /turf/open/floor/plating/airless,
@@ -49516,13 +49486,10 @@
 /area/station/science/xenobiology)
 "ufk" = (
 /obj/structure/table/glass,
-/obj/item/clothing/gloves/latex,
-/obj/item/surgical_drapes,
-/obj/item/surgicaldrill,
-/obj/item/bonesetter,
 /obj/effect/turf_decal/tile/blue/half/contrasted{
 	dir = 4
 	},
+/obj/item/surgery_tray,
 /turf/open/floor/iron/white,
 /area/station/medical/surgery/theatre)
 "ufo" = (
@@ -52543,14 +52510,12 @@
 /turf/open/floor/iron/dark,
 /area/station/service/chapel)
 "wvp" = (
-/obj/item/retractor,
-/obj/item/hemostat,
-/obj/item/cautery,
 /obj/structure/table/glass,
 /obj/machinery/light/directional/east,
 /obj/effect/turf_decal/tile/blue/half/contrasted{
 	dir = 4
 	},
+/obj/item/clothing/gloves/latex,
 /turf/open/floor/iron/white,
 /area/station/medical/surgery/theatre)
 "wvq" = (
@@ -81939,10 +81904,10 @@ gVy
 ioj
 bub
 lkA
-rch
+ufk
 wvp
 fMs
-hkF
+wvp
 ufk
 eKa
 oJj
