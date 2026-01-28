@@ -1,0 +1,25 @@
+2026-01-28:
+  Bam40002:
+  - rscadd: Added DOCTOS EMOTE!!!
+  CobsonOnTheLog:
+  - rscadd: Added 2 new undershirts
+  - bugfix: Allow Satoko plushie to spawn
+  - image: Modify Satoko plushie sprite
+  MaxChudiusV:
+  - rscadd: Adds Sproke
+  - rscadd: Soylent can now be capped and uncapped
+  - image: Center soylent icon and separate its cap from the texture
+  - refactor: Soylent moved to drinks.dm
+  - refactor: Soylent reagents' descriptions changed
+  - refactor: Soylent mint's color changed
+  - rscadd: Sproke overdose mechanic
+  - image: Change the crushed Sproke can texture to have more contrast on the edges
+  - image: MDMA Wario is now MDMA Warrior-Z
+  Qoot-jpg:
+  - rscadd: Bitcoin miner
+  - rscadd: Added 5 new drinks to drink_reagents.dm
+  - rscadd: Added 5 new bottle icons to the bottles.dmi
+  - rscadd: Added the new drinks as purchasable items in offee vending machine and
+      boozeomat
+  - rscadd: Added 2 new undershirts
+  - rscadd: Added Shitoko plushie
