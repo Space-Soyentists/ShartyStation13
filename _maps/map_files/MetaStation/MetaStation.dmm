@@ -1056,12 +1056,11 @@
 /turf/open/floor/iron/dark,
 /area/station/medical/morgue)
 "atf" = (
-/obj/structure/table/glass,
-/obj/item/clothing/gloves/latex,
-/obj/item/surgical_drapes,
 /obj/effect/turf_decal/tile/blue/fourcorners,
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/structure/cable,
+/obj/item/surgery_tray,
+/obj/structure/table/glass,
 /turf/open/floor/iron/white,
 /area/station/medical/surgery/theatre)
 "ati" = (
@@ -14354,11 +14353,10 @@
 /turf/open/floor/iron/white/smooth_large,
 /area/station/medical/medbay/central)
 "fiK" = (
-/obj/structure/table/glass,
-/obj/item/clothing/gloves/latex,
-/obj/item/surgical_drapes,
 /obj/machinery/airalarm/directional/south,
 /obj/effect/turf_decal/tile/blue/fourcorners,
+/obj/item/surgery_tray,
+/obj/structure/table/glass,
 /turf/open/floor/iron/white,
 /area/station/medical/surgery/theatre)
 "fiS" = (
@@ -23478,19 +23476,14 @@
 /turf/open/floor/iron,
 /area/station/hallway/primary/starboard)
 "iqK" = (
-/obj/structure/table/glass,
-/obj/item/scalpel{
-	pixel_y = 12
-	},
-/obj/item/circular_saw,
 /obj/effect/turf_decal/tile/blue/fourcorners,
-/obj/item/blood_filter,
 /obj/machinery/light/directional/north,
-/obj/item/bonesetter,
 /obj/machinery/button/door/directional/north{
 	id = "main_surgery";
 	name = "privacy shutters control"
 	},
+/obj/structure/table/glass,
+/obj/item/clothing/gloves/latex,
 /turf/open/floor/iron/white,
 /area/station/medical/surgery/theatre)
 "iqN" = (
@@ -45976,19 +45969,14 @@
 /turf/open/floor/iron/white,
 /area/station/command/heads_quarters/cmo)
 "pXQ" = (
-/obj/structure/table/glass,
-/obj/item/scalpel{
-	pixel_y = 12
-	},
-/obj/item/circular_saw,
-/obj/item/blood_filter,
 /obj/machinery/light/directional/south,
-/obj/item/bonesetter,
 /obj/machinery/button/door/directional/south{
 	id = "main_surgery";
 	name = "privacy shutters control"
 	},
 /obj/effect/turf_decal/tile/blue/fourcorners,
+/obj/structure/table/glass,
+/obj/item/clothing/gloves/latex,
 /turf/open/floor/iron/white,
 /area/station/medical/surgery/theatre)
 "pXW" = (
@@ -62005,9 +61993,6 @@
 /area/station/science/xenobiology)
 "vAF" = (
 /obj/structure/table/glass,
-/obj/item/retractor,
-/obj/item/hemostat,
-/obj/item/cautery,
 /obj/effect/turf_decal/tile/blue/fourcorners,
 /turf/open/floor/iron/white,
 /area/station/medical/surgery/theatre)
