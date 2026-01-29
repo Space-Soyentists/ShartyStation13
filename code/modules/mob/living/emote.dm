@@ -369,7 +369,7 @@ monkestation edit end */
 
 /datum/emote/living/ree/get_sound(mob/living/user)
 	return pick(
-		'sharty/sound/voice/frog/ree.ogg',
+		'sound/voice/frog/ree.ogg',
 		'sound/effects/reee.ogg',
 	)
 
@@ -385,7 +385,7 @@ monkestation edit end */
 	return ..() && isfrog(user)
 
 /datum/emote/living/ribbit/get_sound(mob/living/user)
-	return 'sharty/sound/voice/frog/ribbit.ogg'
+	return 'sound/voice/frog/ribbit.ogg'
 
 /datum/emote/living/scream/select_message_type(mob/user, message, intentional)
 	. = ..()
