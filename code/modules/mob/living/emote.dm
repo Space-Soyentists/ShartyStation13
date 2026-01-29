@@ -200,26 +200,6 @@
 	emote_type = EMOTE_VISIBLE | EMOTE_AUDIBLE
 	stat_allowed = HARD_CRIT
 
-/datum/emote/living/geg // TODO: figure out how to make it GEG instead of laugh, it's either here or in tongue code
-	key = "geg"
-	key_third_person = "gegs"
-	message = "GEEEEEGs!"
-	message_param = "GEEEEEGs at %t!"
-	message_mime = "GEEEEEGs silently!"
-	emote_type = EMOTE_VISIBLE | EMOTE_AUDIBLE
-	stat_allowed = HARD_CRIT // funny
-	vary = TRUE
-
-/datum/emote/living/geg/can_run_emote(mob/user, status_check, intentional)
-	return ..() && isfrog(user)
-
-/datum/emote/living/geg/get_sound(mob/living/user)
-	return pick(
-		'sharty/sound/voice/frog/geg.ogg',
-		'sharty/sound/voice/frog/geg2.ogg',
-		'sharty/sound/voice/frog/geg3.ogg',
-	)
-
 /datum/emote/living/giggle
 	key = "giggle"
 	key_third_person = "giggles"
@@ -389,7 +369,7 @@ monkestation edit end */
 
 /datum/emote/living/ree/get_sound(mob/living/user)
 	return pick(
-		'sharty/sound/voice/frog/ree.ogg',
+		'sound/voice/frog/ree.ogg',
 		'sound/effects/reee.ogg',
 	)
 
@@ -405,7 +385,7 @@ monkestation edit end */
 	return ..() && isfrog(user)
 
 /datum/emote/living/ribbit/get_sound(mob/living/user)
-	return 'sharty/sound/voice/frog/ribbit.ogg'
+	return 'sound/voice/frog/ribbit.ogg'
 
 /datum/emote/living/scream/select_message_type(mob/user, message, intentional)
 	. = ..()

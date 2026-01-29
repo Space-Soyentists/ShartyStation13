@@ -366,3 +366,86 @@ monkestation edit end */
 			spawn(2)
 				for(var/client/C in GLOB.clients)
 					C.images -= soyjak
+
+/datum/emote/living/carbon/human/kek
+	key = "kek"
+	key_third_person = "keks"
+	message = "keks."
+	message_mime = "laughs like a frog."
+	emote_type = EMOTE_VISIBLE | EMOTE_AUDIBLE
+
+/datum/emote/living/carbon/human/kek/run_emote(mob/user, params, type_override, intentional)
+	. = ..()
+	var/list/soundlist = list(
+		'sound/voice/kek/kek1.ogg',
+		'sound/voice/kek/kek2.ogg',
+		'sound/voice/kek/kek3.ogg',
+		'sound/voice/kek/kek4.ogg',
+		'sound/voice/kek/kek5.ogg',
+		'sound/voice/kek/kek6.ogg'
+	)
+
+	var/image/froglaugh = image(
+		icon = 'icons/hud/kek.dmi',
+		icon_state = "kek",
+		loc = user.loc,
+		layer = HUD_PLANE
+	)
+	froglaugh.pixel_y = 32
+	froglaugh.alpha = 0
+	froglaugh.plane = HUD_PLANE
+
+	for (var/client/C in GLOB.clients)
+		C.images |= froglaugh
+
+	if (user.stat == CONSCIOUS)
+		froglaugh.alpha = 0
+		animate(froglaugh, alpha = 255, time = 2)
+		playsound(user, pick(soundlist), 30, FALSE)
+
+		spawn(20)
+			animate(froglaugh, alpha = 0, time = 2)
+			spawn(2)
+				for(var/client/C in GLOB.clients)
+					C.images -= froglaugh
+
+/datum/emote/living/carbon/human/geg
+	key = "geg"
+	key_third_person = "gegs"
+	message = "gegs."
+	message_mime = "laughs like a 'jakker'."
+	emote_type = EMOTE_VISIBLE | EMOTE_AUDIBLE
+
+/datum/emote/living/carbon/human/geg/run_emote(mob/user, params, type_override, intentional)
+	. = ..()
+	var/list/soundlist = list(
+		'sound/voice/geg/geg1.ogg',
+		'sound/voice/geg/geg2.ogg',
+		'sound/voice/geg/geg3.ogg',
+		'sound/voice/geg/geg4.ogg',
+	)
+
+	var/image/coblaugh = image(
+		icon = 'icons/hud/geg.dmi',
+		icon_state = "geg",
+		loc = user.loc,
+		layer = HUD_PLANE
+	)
+	coblaugh.pixel_y = 32
+	coblaugh.pixel_x = 8
+	coblaugh.alpha = 0
+	coblaugh.plane = HUD_PLANE
+
+	for (var/client/C in GLOB.clients)
+		C.images |= coblaugh
+
+	if (user.stat == CONSCIOUS)
+		coblaugh.alpha = 0
+		animate(coblaugh, alpha = 255, time = 2)
+		playsound(user, pick(soundlist), 30, FALSE)
+
+		spawn(10)
+			animate(coblaugh, alpha = 0, time = 2)
+			spawn(2)
+				for(var/client/C in GLOB.clients)
+					C.images -= coblaugh
