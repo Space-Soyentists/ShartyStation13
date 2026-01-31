@@ -1,0 +1,6 @@
+author: "curlybrace0"
+delete-after: True
+changes:
+  - map: "move bitrunning den to cargo on metastation"
+  - map: "move bitrunning den to cargo on deltastation"
+  - map: "move bitrunning den to cargo on pubbystation"
