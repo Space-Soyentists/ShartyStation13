@@ -491,9 +491,6 @@ SUBSYSTEM_DEF(ticker)
 					continue
 				item.post_equip_item(new_player_mob.client?.prefs, new_player_living)
 
-		if(new_player_mob.client?.readied_store?.bought_item)
-			new_player_mob.client.readied_store.finalize_purchase_spawn(new_player_mob, new_player_living)
-
 		CHECK_TICK
 
 	if(captainless)
