@@ -502,7 +502,7 @@ SUBSYSTEM_DEF(plexora)
 	require_comms_key = TRUE
 
 /datum/world_topic/plx_getloadoutrewards/Run(list/input)
-	return subtypesof(/datum/store_item) - typesof(/datum/store_item/roundstart)
+	return subtypesof(/datum/store_item)
 
 /datum/world_topic/plx_getunusualitems
 	keyword = "PLX_getunusualitems"

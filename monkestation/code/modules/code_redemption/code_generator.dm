@@ -34,7 +34,7 @@ GLOBAL_LIST_INIT(stored_codes, list())
 		return
 	var/static/list/possible_items
 	if(!possible_items)
-		possible_items = subtypesof(/datum/store_item) - typesof(/datum/store_item/roundstart)
+		possible_items = subtypesof(/datum/store_item)
 	var/choice = tgui_input_list(usr, "Please choose a loadout item to award", "Loadout Choice", possible_items)
 	if(!choice)
 		return

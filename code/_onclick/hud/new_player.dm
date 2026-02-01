@@ -173,11 +173,6 @@
 	if(ready)
 		new_player.ready = PLAYER_READY_TO_PLAY
 		base_icon_state = "ready"
-		var/client/new_client = new_player.client
-		if(new_client)
-			if(!new_client.readied_store)
-				new_client.readied_store = new(new_player)
-			new_client.readied_store.ui_interact(new_player)
 		addtimer(CALLBACK(GLOBAL_PROC, GLOBAL_PROC_REF(interview_safety), new_player, "readied up"), 1 SECONDS, TIMER_UNIQUE)
 	else
 		new_player.ready = PLAYER_NOT_READY
