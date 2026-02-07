@@ -4242,5 +4242,15 @@
 	"secret": false,
 	"lobby": false,
 	"jukebox": true
+	},
+	{
+		"url": "https://files.catbox.moe/chq1yl.mp3",
+		"title": "Moon Niggas",
+		"duration": 580,
+		"artist": "Dem Young Boys",
+		"genre": "Shitpost",
+		"secret": false,
+		"lobby": true,
+		"jukebox": true
 	}
 	]
