@@ -65,7 +65,7 @@ var/alist/christmas_word_filters = alist(
 /proc/word_filter_text(text)
 	var/message = text
 	if (check_holidays(CHRISTMAS))
-		for (var/word as text in christmas_word_filters)
+		for (var/word as anything in christmas_word_filters)
 			var/target_text = findtext(text, word)
 			if (target_text)
 				message = replacetext(message, word, christmas_word_filters[word])
