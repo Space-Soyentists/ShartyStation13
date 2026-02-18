@@ -64,7 +64,6 @@ img {
 	margin: 0.1em;
 	padding: 0.25em 0.4em;
 	border: 0;
-	border-radius: 0.25em;
 }
 
 #menu.tabs-classic .button.active {
@@ -76,7 +75,8 @@ img {
 	display: inline-table;
 	cursor: pointer;
 	user-select: none;
-	-ms-user-select: none; /* Remove after Byond 516 */
+	-ms-user-select: none;
+	/* Remove after Byond 516 */
 	text-align: center;
 	font-size: 1em;
 	min-width: 2.9em;
@@ -85,7 +85,6 @@ img {
 	color: rgba(0, 0, 0, 0.5);
 	border: 0;
 	border-bottom: 0.1667em solid transparent;
-	border-radius: 0.25em 0.25em 0 0;
 }
 
 .button:hover {
@@ -124,7 +123,8 @@ img {
 	display: inline-flex;
 	position: relative;
 	user-select: none;
-	-ms-user-select: none; /* Remove after Byond 516 */
+	-ms-user-select: none;
+	/* Remove after Byond 516 */
 	width: 100%;
 	max-height: 1.85em;
 	text-decoration: none;
@@ -146,7 +146,6 @@ img {
 	pointer-events: none;
 	width: 100%;
 	padding: 0.33em 0.5em;
-	border-radius: 0.25em;
 }
 
 .grid-item:hover .grid-item-text {
@@ -156,7 +155,7 @@ img {
 	background-color: #ececec;
 }
 
-.grid-item:active .grid-item-text  {
+.grid-item:active .grid-item-text {
 	background-color: #dfdfdf;
 }
 
@@ -239,7 +238,7 @@ body.dark {
 	background-color: #252525;
 }
 
-.dark .button.active  {
+.dark .button.active {
 	background-color: #313131;
 	color: #d4dfec;
 	border-bottom-color: #d4dfec;
@@ -250,7 +249,7 @@ body.dark {
 	background-color: #202020;
 }
 
-.dark .grid-item{
+.dark .grid-item {
 	color: #b2c4dd;
 }
 

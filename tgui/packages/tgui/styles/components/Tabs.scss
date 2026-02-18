@@ -106,8 +106,6 @@ $fg-map: colors.$fg-map !default;
   .Tab {
     border-top: math.div(1em, 6) solid transparent;
     border-bottom: math.div(1em, 6) solid transparent;
-    border-top-left-radius: 0.25em;
-    border-top-right-radius: 0.25em;
   }
 
   .Tab--selected {
