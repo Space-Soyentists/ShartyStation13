@@ -1,0 +1,96 @@
+/**
+ * Copyright (c) 2020 Aleksej Komarov
+ * SPDX-License-Identifier: MIT
+ */
+
+@use 'sass:color';
+@use 'sass:meta';
+
+@use '~tgui/styles/colors.scss' with (
+  $primary: #2374ff,
+  $bg-lightness: -25%,
+  $fg-lightness: -10%,
+  $label: #3b3b3b,
+  // Makes button look actually grey due to weird maths.
+  $grey: #ffffff,
+  // Commenting out color maps will adjust all colors based on the lightness
+  // settings above, but will add extra 10KB to the theme.
+  // $fg-map-keys: (),
+  // $bg-map-keys: (),
+);
+@use '~tgui/styles/base.scss' with (
+  $color-fg: #000000,
+  $color-bg: #EDF1FF,
+  $color-bg-section: #D1D5EE,
+  $color-bg-grad-spread: 0%
+);
+
+// A fat warning to anyone who wants to use this: this only half works.
+// It was made almost purely for the nuke ui, and requires a good amount of manual hacks to get it working as intended.
+.theme-yotsuba {
+  // Atomic classes
+  @include meta.load-css('~tgui/styles/atomic/color.scss');
+
+  // Components
+  @include meta.load-css(
+    '~tgui/styles/components/Tabs.scss',
+    $with: (
+      'text-color': rgba(0, 0, 0, 1),
+      'color-default': rgba(0, 0, 0, 1),
+      'tab-color-selected': rgba(112, 164, 225, 0.25),
+      'tab-color-hovered': rgba(112, 164, 225, 0.75),
+    )
+  );
+  @include meta.load-css('~tgui/styles/components/Section.scss');
+  @include meta.load-css(
+    '~tgui/styles/components/Button.scss',
+    $with: (
+      'color-default': #89A,
+      'color-disabled': #363636,
+      'color-selected': #2374ff ,
+      'color-caution': #be6209,
+      'color-danger': #9a9d00,
+      'color-transparent-text': rgba(0, 0, 0, 0.8)
+    )
+  );
+  @include meta.load-css(
+    '~tgui/styles/components/Input.scss',
+    $with: (
+      'border-color': colors.fg(colors.$label),
+      'background-color': #3f4c5f,
+      'text-color': #ffffff,
+    )
+  );
+  @include meta.load-css('~tgui/styles/components/NumberInput.scss');
+  @include meta.load-css('~tgui/styles/components/TextArea.scss');
+  @include meta.load-css('~tgui/styles/components/Knob.scss');
+  @include meta.load-css('~tgui/styles/components/Slider.scss');
+  @include meta.load-css('~tgui/styles/components/ProgressBar.scss');
+
+  // Components specific to tgui-panel
+  @include meta.load-css(
+    '../components/Chat.scss',
+    $with: ('text-color': #000000)
+  );
+
+  // Layouts
+  @include meta.load-css(
+    '~tgui/styles/layouts/Layout.scss',
+    $with: ('scrollbar-color-multiplier': -1)
+  );
+  @include meta.load-css('~tgui/styles/layouts/Window.scss');
+  @include meta.load-css(
+    '~tgui/styles/layouts/TitleBar.scss',
+    $with: (
+      'text-color': rgba(0, 0, 0, 0.75),
+      'background-color': base.$color-bg,
+      'shadow-color-core': rgba(0, 0, 0, 0.25)
+    )
+  );
+
+  // tgchat styles
+  @include meta.load-css('../tgchat/chat-yotsuba.scss');
+
+  // Chat formats (color, size, font, etc)
+  @include meta.load-css('../chat-format/chat-light-theme.scss');
+}
