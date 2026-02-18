@@ -1,0 +1,5 @@
+author: "curlybrace0"
+delete-after: True
+changes:
+  - rscadd: "added yotsuba theme for tgui-panel and statbrowser"
+  - rscadd: "make tgui's buttons square instead of round"
