@@ -4,7 +4,7 @@
  * @license MIT
  */
 
-export const THEMES = ['light', 'dark'];
+export const THEMES = ['light', 'dark', 'yotsuba'];
 
 const COLORS = {
   DARK: {
@@ -20,6 +20,13 @@ const COLORS = {
     BUTTON: '#FFFEFE',
     TEXT: '#000000',
     BG_REPORT_ISSUES: '#492020', // monkestation edit: make "Report Bugs" button red
+  },
+  YOTSUBA: {
+    BG_BASE: '#D1D5EE',
+    BG_SECOND: '#EDF1FF',
+    BUTTON: '#FFFEFE',
+    TEXT: '#000000',
+    BG_REPORT_ISSUES: '#eb6363ff', // monkestation edit: make "Report Bugs" button red
   },
 };
 

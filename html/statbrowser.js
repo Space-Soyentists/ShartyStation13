@@ -706,11 +706,15 @@ function set_theme(which) {
 	if (which == "light") {
 		document.body.className = "";
 		document.documentElement.className = 'light';
-		set_style_sheet("browserOutput_white");
+		set_style_sheet("browserOutput_white"); // <-- this is fucking useless
 	} else if (which == "dark") {
 		document.body.className = "dark";
 		document.documentElement.className = 'dark';
-		set_style_sheet("browserOutput");
+		set_style_sheet("browserOutput"); // <-- this is fucking useless
+	} else if (which == "yotsuba") {
+		document.body.className = "yotsuba";
+		document.documentElement.className = 'yotsuba';
+		set_style_sheet("browserOutput_yotsuba"); // <-- this is fucking useless
 	}
 }
 
