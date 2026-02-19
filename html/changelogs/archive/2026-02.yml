@@ -1,3 +1,7 @@
 2026-02-02:
   curlybrace0:
   - rscdel: removed roundstart items
+2026-02-19:
+  curlybrace0:
+  - rscadd: added yotsuba theme for tgui-panel and statbrowser
+  - rscadd: make tgui's buttons square instead of round
