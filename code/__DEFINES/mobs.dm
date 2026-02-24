@@ -118,6 +118,7 @@
 #define SPECIES_SNAIL "snail"
 #define SPECIES_TALLBOY "tallboy"
 #define SPECIES_THOUGHER "thougher"
+#define SPECIES_NOPHONO "nophono"
 #define SPECIES_THOUGH "though"
 #define SPECIES_VAMPIRE "vampire"
 #define SPECIES_ZOMBIE "zombie"
