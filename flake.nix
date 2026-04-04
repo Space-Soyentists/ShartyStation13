@@ -59,6 +59,7 @@
       packages = with pkgs; [
         self.packages.x86_64-linux.byond-linux
         # we'll just run build.js from tools/build instead
+        just
         nodejs
       ];
     };
