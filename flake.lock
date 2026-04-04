@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "byond-linux": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1773802820,
+        "narHash": "sha256-dULzuCR2ZgGmyQAm8oRL6M4BA5s8GFQQ7gb9ippvQrc=",
+        "type": "tarball",
+        "url": "https://www.byond.com/download/build/516/516.1680_byond_linux.zip"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://www.byond.com/download/build/516/516.1680_byond_linux.zip"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1774709303,
+        "narHash": "sha256-D3Q07BbIA2KnTcSXIqqu9P586uWxN74zNoCH3h2ESHg=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "8110df5ad7abf5d4c0f6fb0f8f978390e77f9685",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "byond-linux": "byond-linux",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
